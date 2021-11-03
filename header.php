@@ -1,39 +1,40 @@
 <?php
-echo "<link rel='stylesheet' type='text/css' href='CSS/estilo.css'>";
-?>
-
+echo '
+<!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title>Portal COVID</title>
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="" type="text/css"> -->
-    <script src="/js/bootstrap.min.js"></script>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-
 <body>
-
-<header class="menu">
-
-<img src="/images/imagem1.jpg" alt="">
-
-<nav>
-<ul>
-<li><a href="#">Home</a></li>
-<li><a href="#" class="nav-item dropdown">Covid-19</a></li>
-<li><a href="#">Contatos</a></li>
-<li><a href="#">Dados Atualizados</a></li>
-<li><a href="#">Quem Somos</a></li>
-</ul>
-
-</nav>
-
-</header>
-
-
+      
+    <nav class="navbar fixed-top navbar-expand-lg">
+          <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                 <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
+                   NossoSite
+               </a>
+            <ul class="nav nav-tabs nav-fill">
+                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Covid-19
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">O que é ?</a></li>
+                  <li><a class="dropdown-item" href="#">Sintomas</a></li>
+                  <li><a class="dropdown-item" href="#">Vacinas</a></li>
+                </ul>
+                </li>
+                 <li class="nav-item"><a class="nav-link" href="#">Dados Atualizados</a></li>
+                 <li class="nav-item"><a class="nav-link" href="#">Contatos</a></li>
+                 <li class="nav-item"><a class="nav-link" href="#">Quem Somos</a></li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </nav>
+      
 </body>
 
-</html>
+</html>';
 
+?>
