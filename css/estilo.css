@@ -1,14 +1,14 @@
+<<<<<<< Updated upstream
 <<<<<<< HEAD
 @charset "UTF-8";
+=======
+/* organização menu superior */
+>>>>>>> Stashed changes
 
-/* HEADER GERAL */
-
-
-
-
-/* CSS HOME */
-main{
-    padding-top: 73px;
+.menu{
+    background-image: url(../exemplo3.png);
+    display: flex;
+    margin-left: 100px;
 }
 =======
 /* organização menu superior */
