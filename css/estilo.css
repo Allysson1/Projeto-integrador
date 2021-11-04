@@ -1,12 +1,40 @@
 @charset "UTF-8";
 
 /* organização menu superior */
-
-
 .menu{
-    background-image: url(../exemplo3.png);
+    background-image: url(../images/exemplo3.png);
     display: flex;
     margin-left: 100px;
+}
+
+#navbar{
+    background-color: #257A86;
+}
+
+
+#navbar ul li a {
+    color: #fff;
+    font-weight: bold;
+}
+
+#adrop{
+    color: #000;
+}
+
+/* organização da home */
+main{
+    padding-top: 100px;
+}
+
+.secredes{
+    text-align: center;
+}
+
+.redes{
+    height: 90px;
+    width: 90px;
+    padding: 25px;
+    
 }
 
 
