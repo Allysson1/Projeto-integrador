@@ -1,25 +1,19 @@
 @charset "UTF-8";
 
-/* organização menu superior */
-.menu{
-    background-image: url(../images/exemplo3.png);
-    display: flex;
-    margin-left: 100px;
+/* organização tela de dados */
+.body-dados{
+    /* overflow-x: hidden; remove a barra de rolagem hor */
+    overflow-x: hidden;
+    margin-left: 5%;
+    max-width: 1345px;
 }
 
-#navbar{
-    background-color: #257A86;
+.imglink-dados{
+    padding: 5%;
 }
 
 
-#navbar ul li a {
-    color: #fff;
-    font-weight: bold;
-}
 
-#adrop{
-    color: #000;
-}
 
 /* organização da home */
 main{
