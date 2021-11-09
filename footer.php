@@ -7,14 +7,14 @@ echo'
             <nav>
                   <a href="#"><img src="#" alt=""></a>
                   <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Contato</a></li>
                   </ul>
                   <ul>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
+                        <li><a href="#">Vacinas</a></li>
+                        <li><a href="#">Sintomas</a></li>
+                        <li><a href="#">Política de Privacidade</a></li>
                   </ul>
             </nav>
                   <p>Acompanhe mais notícias nas nossas redes sociais</p>
