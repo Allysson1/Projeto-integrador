@@ -8,7 +8,7 @@ echo '
           <div class="container-fluid">
               <a class="navbar-brand" href="#">
                  <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-                   NossoSite
+                   Portal Covid
                </a>
             <ul class="nav nav-tabs nav-fill">
                 <li class="nav-item"><a class="nav-link #fff"  href="#">Home</a></li>
@@ -22,7 +22,7 @@ echo '
                   <li><a class="dropdown-item" href="#" >Vacinas</a></li>
                 </ul>
                 </li>
-                 <li class="nav-item"><a class="nav-link" href="#">Dados Atualizados</a></li>
+                 <li class="nav-item"><a class="nav-link" href="../Projeto-integrador/3-dados.html">Dados Atualizados</a></li>
                  <li class="nav-item"><a class="nav-link" href="#">Contatos</a></li>
                  <li class="nav-item"><a class="nav-link" href="#">Quem Somos</a></li>
             </ul>
