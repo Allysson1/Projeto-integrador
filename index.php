@@ -23,7 +23,7 @@
         <article class="col-sm-8 col-md-7 col-lg-8">
           <section>
 
-            <h1>O que você procura ?</h1>
+            <h1 class="h1index">O que você procura ?</h1>
             <h3>Ultimas Notícias: </h3>
             <p>01/01/2021</p>
             <img src="#" alt="">
@@ -81,15 +81,41 @@
               <img src="../Projeto-integrador/images/linkedin.svg" alt="" class="redes">
             </section>
             
-            
+            <section>
+                <h3>Mais Lidas</h3>
+                <img src="#" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Magni maiores totam debitis facilis architecto praesentium vero beatae culpa ut. 
+                  Velit iste nostrum maxime? Itaque ullam illum recusandae! Modi, cumque mollitia!
+                </p>
+                <img src="#" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Magni maiores totam debitis facilis architecto praesentium vero beatae culpa ut. 
+                  Velit iste nostrum maxime? Itaque ullam illum recusandae! Modi, cumque mollitia!
+                </p>
+                <img src="#" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                  Magni maiores totam debitis facilis architecto praesentium vero beatae culpa ut. 
+                  Velit iste nostrum maxime? Itaque ullam illum recusandae! Modi, cumque mollitia!
+                </p>
+            </section>
         </aside>
+        <section class="col-sm-12 col-md-12 col-lg-12">
+              <h3>A Covid-19 não é brincadeira</h3>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Facere totam molestias molestiae esse fugiat omnis magnam quaerat iure nemo, 
+                impedit quos, ipsum corporis accusantium officia veritatis cumque ducimus ipsam minus.
+              </p>
+            </section>
         </div>
       </main>
-
-    
-
   </div>
-  <script src="../Projeto-integrador/js/bootstrap.bundle.min.js"></script>
+    <footer class="row">
+        <?php include 'footer.php'; ?>
+    </footer>
+    <p><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
+    
+    <script src="../Projeto-integrador/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

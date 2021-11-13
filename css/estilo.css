@@ -12,7 +12,7 @@
 
 /* organização da home */
 main{
-    padding-top: 100px;
+    padding-top: 110px;
 }
 
 .secredes{
@@ -20,11 +20,15 @@ main{
 }
 
 .redes{
-    height: 90px;
-    width: 90px;
+    height: 85px;
+    width: 85px;
     padding: 25px;
     
 }
 
-
+.h1index{
+    padding: 25px;
+    padding-bottom: 35px;
+    text-align: center;
+}
 
