@@ -1,12 +1,7 @@
 @charset "UTF-8";
 
 /* organização tela de dados */
-.body-dados{
-    /* overflow-x: hidden; remove a barra de rolagem hor */
-    overflow-x: hidden;
-    margin-left: 5%;
-    max-width: 1345px;
-}
+
 
 .imglink-dados{
     padding: 5%;
