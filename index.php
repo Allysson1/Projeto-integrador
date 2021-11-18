@@ -12,12 +12,9 @@
 
 <body>
   <div class="container-fluid">
-    <header>
-         <?php include 'header.php'; ?>
-    </header>
-    
 
-    
+  <?php include 'header.php'; ?>
+        
       <main>
       <div class="row">
         <article class="col-sm-8 col-md-7 col-lg-8">

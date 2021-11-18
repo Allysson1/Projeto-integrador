@@ -1,5 +1,20 @@
 @charset "UTF-8";
 
+/* organização do header */
+header{
+    height: 100%;
+    width: 100%;
+}
+
+#navbar{
+    background-color: #ffd300;
+    /* background-image: url('../images/index.jpg'); */
+}
+
+#img-header{
+    overflow-x: hidden;
+}
+
 /* organização tela de dados */
 
 
@@ -13,6 +28,7 @@
 /* organização da home */
 main{
     padding-top: 110px;
+
 }
 
 .secredes{
@@ -32,3 +48,10 @@ main{
     text-align: center;
 }
 
+/* organização da tela de sintomas */
+
+.h1cor{
+    padding: 25px;
+    padding-bottom: 35px;
+    text-align: center;
+}
