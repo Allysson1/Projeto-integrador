@@ -2,10 +2,80 @@
 
 /* organização tela de dados */
 
+.body-dados{
+    overflow-x: hidden;   
+}
+
 
 .imglink-dados{
-    padding: 5%;
+    margin-top: 5%;
+    margin-left: 5%;
 }
+
+/* mobile */
+@media (max-width: 576px) {
+.asidedados{
+    display: none;
+}
+
+
+.nav-tablet{
+    display: none;
+}
+
+ }
+
+ .paside{
+     margin-top: 5%;
+     margin-left: 17%;
+ }
+
+ @media (min-width: 576px) {
+ .sct-sm{
+display: none; 
+}
+
+.asidedados{
+    display: none;
+}
+
+}
+
+/* tablet */
+@media (min-width: 768px) {
+
+    
+    .asidedados{
+        display: none;
+    }
+
+    .nav-tablet{
+        display: block;
+        margin-left: 3%;
+    }
+
+    .imglink-dados{
+        margin-top: 5%;
+        margin-left: 10%;
+    }
+
+
+}
+
+@media (min-width: 992px) { 
+    .asidedados{
+        display: block;
+    }
+
+    .nav-tablet{
+        display: none;
+    }
+
+    .imglink-dados{
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+ }
 
 
 
