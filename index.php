@@ -6,16 +6,18 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="../Projeto-integrador/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/estilo.css">
+
 </head>
 
 <body>
   <div class="container-fluid">
 
-  <?php include 'header.php'; ?>
-        
-      <main>
+    <?php include 'header.php'; ?>
+
+    <main>
+      <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="">
       <div class="row">
         <article class="col-sm-8 col-md-7 col-lg-8">
           <section>
@@ -69,50 +71,55 @@
         </article>
 
         <aside class="col-sm-4 col-md-5 col-lg-4">
-            
-            <section class="secredes">
-            <h3>Redes Sociais:</h3>
-              <img src="../Projeto-integrador/images/facebook.svg" alt="" class="redes">
-              <img src="../Projeto-integrador/images/instagram.svg" alt="" class="redes">
-              <img src="../Projeto-integrador/images/twitter.svg" alt="" class="redes">
-              <img src="../Projeto-integrador/images/linkedin.svg" alt="" class="redes">
-            </section>
-            
-            <section>
-                <h3>Mais Lidas</h3>
-                <img src="#" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Magni maiores totam debitis facilis architecto praesentium vero beatae culpa ut. 
-                  Velit iste nostrum maxime? Itaque ullam illum recusandae! Modi, cumque mollitia!
-                </p>
-                <img src="#" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Magni maiores totam debitis facilis architecto praesentium vero beatae culpa ut. 
-                  Velit iste nostrum maxime? Itaque ullam illum recusandae! Modi, cumque mollitia!
-                </p>
-                <img src="#" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                  Magni maiores totam debitis facilis architecto praesentium vero beatae culpa ut. 
-                  Velit iste nostrum maxime? Itaque ullam illum recusandae! Modi, cumque mollitia!
-                </p>
-            </section>
+
+          <section class="secredes">
+            <h3 class="h3redes">Redes Sociais:</h3>
+            <img src="../Projeto-integrador/icons/facebook.svg" alt="" class="redes">
+            <img src="../Projeto-integrador/icons/instagram.svg" alt="" class="redes">
+            <img src="../Projeto-integrador/icons/twitter.svg" alt="" class="redes">
+            <img src="../Projeto-integrador/icons/linkedin.svg" alt="" class="redes">
+          </section>
+
+          <section>
+            <h3>Mais Lidas</h3>
+            <img src="#" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Magni maiores totam debitis facilis architecto praesentium vero beatae culpa ut.
+              Velit iste nostrum maxime? Itaque ullam illum recusandae! Modi, cumque mollitia!
+            </p>
+            <img src="#" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Magni maiores totam debitis facilis architecto praesentium vero beatae culpa ut.
+              Velit iste nostrum maxime? Itaque ullam illum recusandae! Modi, cumque mollitia!
+            </p>
+            <img src="#" alt="">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Magni maiores totam debitis facilis architecto praesentium vero beatae culpa ut.
+              Velit iste nostrum maxime? Itaque ullam illum recusandae! Modi, cumque mollitia!
+            </p>
+          </section>
         </aside>
         <section class="col-sm-12 col-md-12 col-lg-12">
-              <h3>A Covid-19 não é brincadeira</h3>
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
-                Facere totam molestias molestiae esse fugiat omnis magnam quaerat iure nemo, 
-                impedit quos, ipsum corporis accusantium officia veritatis cumque ducimus ipsam minus.
-              </p>
-            </section>
-        </div>
-      </main>
+          <h3>A Covid-19 não é brincadeira</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Facere totam molestias molestiae esse fugiat omnis magnam quaerat iure nemo,
+            impedit quos, ipsum corporis accusantium officia veritatis cumque ducimus ipsam minus.
+          </p>
+        </section>
+      </div>
+    </main>
   </div>
-    <footer class="row">
-        <?php include 'footer.php'; ?>
+  <div class="row">
+    <footer class="footer">
+      <?php include 'footer.php'; ?>
+      <p><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
     </footer>
-    <p><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
     
-    <script src="../Projeto-integrador/js/bootstrap.bundle.min.js"></script>
+
+  </div>
+
+
+  <script src="../Projeto-integrador/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

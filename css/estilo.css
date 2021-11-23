@@ -1,19 +1,42 @@
 @charset "UTF-8";
 
 /* organização do header */
-header{
-    height: 100%;
-    width: 100%;
+
+#ul-nav a{
+    font-size: 1.3em;
 }
 
-#navbar{
-    background-color: #ffd300;
-    /* background-image: url('../images/index.jpg'); */
+#nav-drop{
+    background-color: #006fa5;
 }
 
-#img-header{
-    overflow-x: hidden;
+#nav-drop a{
+    font-size: 1.2em;
+    color: #fff;
 }
+
+#nav-drop a:hover{
+    background-color: #168aad;
+}
+
+/* organização do footer */
+
+.footer{
+    background-color: #2d2d2d;
+}
+
+.foot-redes{
+    fill: white;
+    height: 85px;
+    width: 85px;
+    padding: 25px;
+    float: left;
+}
+
+#nome-brand{
+    color: white;
+}
+
 
 /* organização tela de dados */
 
@@ -27,25 +50,32 @@ header{
 
 /* organização da home */
 main{
-    padding-top: 110px;
+    padding-top: 56px;
 
 }
 
 .secredes{
     text-align: center;
+    padding: 10px;
+
 }
 
 .redes{
     height: 85px;
     width: 85px;
-    padding: 25px;
+    padding: 28px;
     
 }
 
 .h1index{
-    padding: 25px;
-    padding-bottom: 35px;
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.h3redes{
+    text-align: center;
+    padding-top: 40px;
 }
 
 /* organização da tela de sintomas */

@@ -5,8 +5,11 @@ echo'
 
 <body>
             <nav>
-                  <a href="#"><img src="#" alt=""></a>
-                  <ul>
+                  <a class="navbar-brand" href="#" id="nome-brand">
+                   <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top" >
+                        Portal Covid
+                    </a>
+                  <ul class="">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Quem Somos</a></li>
                         <li><a href="#">Contato</a></li>
@@ -18,10 +21,11 @@ echo'
                   </ul>
             </nav>
                   <p>Acompanhe mais notícias nas nossas redes sociais</p>
-                  <img src="../Projeto-integrador/images/facebook.svg" alt="" class="redes">
-                  <img src="../Projeto-integrador/images/instagram.svg" alt="" class="redes">
-                  <img src="../Projeto-integrador/images/twitter.svg" alt="" class="redes">
-                  <img src="../Projeto-integrador/images/linkedin.svg" alt="" class="redes">
+                  <img src="../Projeto-integrador/icons/facebook.svg" alt="" class="foot-redes">
+                  <img src="../Projeto-integrador/icons/instagram.svg" alt="" class="foot-redes"> 
+                  <img src="../Projeto-integrador/icons/twitter.svg" alt="" class="foot-redes">
+                  <img src="../Projeto-integrador/icons/linkedin.svg" alt="" class="foot-redes">
+                 
 
 </body>
 
