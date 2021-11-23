@@ -16,7 +16,9 @@
     <?php include 'header.php'; ?>
 
     <main>
+    <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header"  alt="">
         <div class="row">
+        
             <article class="col-sm-8 col-md-6 col-lg-8">
     
                 <h1 class="h1cor">Coronavírus</h1>
