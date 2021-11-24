@@ -26,7 +26,7 @@
 }
 
 .foot-redes{
-    fill: white;
+    color: white;
     height: 85px;
     width: 85px;
     padding: 25px;
@@ -35,8 +35,40 @@
 
 #nome-brand{
     color: white;
+    clear: both;
 }
 
+.copy{
+    background-color: #2d2d2d;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lista01 li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lista02 li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lista01{
+    float: left;
+    margin-left: 50px;
+}
+
+.lista02{
+    float: right;
+}
+
+.predes{
+    color: white;
+}
 
 /* organização tela de dados */
 

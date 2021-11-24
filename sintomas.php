@@ -16,7 +16,7 @@
     <?php include 'header.php'; ?>
 
     <main>
-    <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header"  alt="">
+        <img src="../Projeto-integrador/images/sintomas.png" class="img-fluid" id="img-header"  alt="">
         <div class="row">
         
             <article class="col-sm-8 col-md-6 col-lg-8">
@@ -302,12 +302,16 @@
     
         </div>
     </main>   
-    <footer>
-         <?php include'footer.php'; ?>
-    </footer> 
-    <p><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
-    
-    <script src="../Projeto-integrador/js/bootstrap.bundle.min.js"></script>
+    <div class="row">
+    <footer class="footer">
+      <?php include 'footer.php'; ?>
+    </footer>
+    <p class="copy"><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
+
+  </div>
+
+
+  <script src="../Projeto-integrador/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

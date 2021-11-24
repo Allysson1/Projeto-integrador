@@ -112,9 +112,8 @@
   <div class="row">
     <footer class="footer">
       <?php include 'footer.php'; ?>
-      <p><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
     </footer>
-    
+    <p class="copy"><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
 
   </div>
 

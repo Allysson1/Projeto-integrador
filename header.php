@@ -5,7 +5,7 @@ echo '
 <body>
       <nav class="navbar fixed-top navbar-expand-lg navbar-warning bg-warning" id="navbar">
           <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="../Projeto-integrador/index.php">
                  <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
                      Portal Covid
                </a>
