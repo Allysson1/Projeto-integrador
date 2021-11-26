@@ -28,8 +28,8 @@
                 
     
                 <section>
-                    <h3>Sintoma A</h3>
-                    <img src="#" alt="">
+                    <h3>Febre</h3>
+                    <img class="img-fluid" src="../Projeto-integrador/images/sintoma1.png" alt="">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                         ullamcorper,
@@ -44,8 +44,8 @@
                 </section>
     
                 <section>
-                    <h3>Sintoma A</h3>
-                    <img src="#" alt="">
+                    <h3>Tosse</h3>
+                    <img class="img-fluid" src="../Projeto-integrador/images/sintoma2.jpg" alt="">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                         ullamcorper,
@@ -60,7 +60,7 @@
                 </section>
     
                 <section>
-                    <h3>Sintoma A</h3>
+                    <h3>Cansaço</h3>
                     <img src="#" alt="">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
@@ -79,7 +79,7 @@
                 <h2>Sintomas Menos Comuns</h2>
                 
     
-                <h3>Sintoma A</h3>
+                <h3>Dores na Ganganta</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                     ullamcorper,
@@ -92,7 +92,7 @@
                     tempor faucibus ipsum.
                 </p>
     
-                <h3>Sintoma A</h3>
+                <h3>Dor de Cabeça</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                     ullamcorper,
@@ -105,7 +105,7 @@
                     tempor faucibus ipsum.
                 </p>
     
-                <h3>Sintoma A</h3>
+                <h3>Dores e Desconfortos</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                     ullamcorper,
@@ -117,20 +117,7 @@
                     Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
                     tempor faucibus ipsum.
                 </p>
-                <h3>Sintoma A</h3>
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                    ullamcorper,
-                    augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                    Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                    vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt ex in
-                    nibh
-                    sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a eros.
-                    Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                    tempor faucibus ipsum.
-                </p>
-    
-                <h3>Sintoma A</h3>
+                <h3>Diarreia</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                     ullamcorper,
@@ -143,7 +130,20 @@
                     tempor faucibus ipsum.
                 </p>
     
-                <h3>Sintoma A</h3>
+                <h3>Irritações na Pele</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
+                    ullamcorper,
+                    augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
+                    Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
+                    vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt ex in
+                    nibh
+                    sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a eros.
+                    Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
+                    tempor faucibus ipsum.
+                </p>
+    
+                <h3>Olhos Vermelhos</h3>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                     ullamcorper,
@@ -162,7 +162,7 @@
     
                 <section>
                     <img src="#" alt="">
-                    <h3>Sintoma A</h3>
+                    <h3>Falta de Ar</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                         ullamcorper,
@@ -178,7 +178,7 @@
     
                 <section>
                     <img src="#" alt="">
-                    <h3>Sintoma A</h3>
+                    <h3>Perda de Fala, Mobilidade ou Confusão</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                         ullamcorper,
@@ -194,7 +194,7 @@
     
                 <section>
                     <img src="#" alt="">
-                    <h3>Sintoma A</h3>
+                    <h3>Dores no Peito</h3>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                         ullamcorper,

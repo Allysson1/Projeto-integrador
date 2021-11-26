@@ -8,7 +8,7 @@ echo'
                   <a class="navbar-brand" href="#" id="nome-brand">
                    <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top" >
                         Portal Covid
-                    </a>
+                  </a>
                   <ul class="lista01">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Quem Somos</a></li>
@@ -20,11 +20,13 @@ echo'
                         <li><a href="#">Política de Privacidade</a></li>
                   </ul>
             </nav>
+            <section class="redesfooter">
                   <p class="predes">Acompanhe mais notícias nas nossas redes sociais</p>
                   <img src="../Projeto-integrador/icons/facebook.svg" alt="" class="foot-redes">
                   <img src="../Projeto-integrador/icons/instagram.svg" alt="" class="foot-redes"> 
                   <img src="../Projeto-integrador/icons/twitter.svg" alt="" class="foot-redes">
                   <img src="../Projeto-integrador/icons/linkedin.svg" alt="" class="foot-redes">
+            </section>
                   
 
 </body>
