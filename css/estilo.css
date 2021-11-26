@@ -178,7 +178,6 @@ header {
   .asidedados {
     display: block;
     background-image: linear-gradient(to bottom, #006fa5, #0c326f);
-    /* background-color: #006FA5; */
     height: 100%;
   }
 
@@ -228,10 +227,7 @@ header {
         margin-bottom: 5%;
         box-shadow: 0 0 1em #464646;
         font-size:0.8rem ;
-      }
-
-      
-
+    }
 }
 
 
@@ -280,6 +276,9 @@ header {
     margin-bottom: 5%;
   }
 }
+
+
+/* organização tela quem somos */
 
 /* organização da home */
 
