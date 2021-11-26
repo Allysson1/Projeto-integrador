@@ -1,5 +1,104 @@
 @charset "UTF-8";
 
+/* organização da home */
+
+main{
+    padding-top: 56px;
+
+
+}
+
+.secredes {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.redes {
+    height: 85px;
+    width: 85px;
+    padding: 25px;
+
+}
+.h1index{
+
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.h3redes{
+    text-align: center;
+    padding-top: 55px;
+}
+
+.secnews{
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+.pindex{
+    font-size: 1.2em;
+}
+
+.btnindex{
+    background-color: #168aad;
+    color: #fff;
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+.btnindex:hover{
+    background-color: #006fa5;
+    color: #fff;
+    font-size: 1.2em;
+    text-decoration: underline;
+
+}
+
+.secmais{
+    background-color: #168aad;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.pmais{
+    font-size: 1.2em;
+    padding: 15px; 
+    
+}
+
+.h3mais{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+/* mobile home */
+@media (max-width: 576px){
+
+    .secnews{
+        padding-bottom: 30px;
+        padding-left: 10px;
+    }
+
+    .h3redes{
+        padding-top: 25px;
+    }
+
+}
+
+.h3risco{
+    text-align: center;
+    font-size: 2.2em;
+    padding: 10px;
+}
+
+.prisco{
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: left;
+}
+
 /* organização do header */
 
 header {
@@ -16,8 +115,18 @@ header {
   overflow-x: hidden;
 }
 
-#ul-nav a {
-  font-size: 1.3em;
+
+@media(min-width: 992px){
+    #ul-nav{
+        padding-left: 42%;
+    }
+    
+    
+}
+
+#ul-nav a{
+    font-size: 1.3em;
+
 }
 
 #nav-drop {
@@ -39,16 +148,77 @@ header {
   background-color: #2d2d2d;
 }
 
-.foot-redes {
-  fill: white;
-  height: 85px;
-  width: 85px;
-  padding: 25px;
-  float: left;
+
+.foot-redes{
+    color: #fff;
+    height: 85px;
+    width: 85px;
+    padding: 25px;
+    float: left;
+
 }
 
-#nome-brand {
-  color: white;
+#nome-brand{
+    color: white;
+    clear: both;
+}
+
+.copy{
+    background-color: #2d2d2d;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lista01 li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.lista02 li a{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* .lista01{
+  
+ 
+}
+
+.lista02{
+   
+} */
+
+.predes{
+    color: white;
+}
+
+.redesfooter{
+    padding-right: 10px;
+}
+
+/* mobile-footer*/
+
+@media (max-width: 576px){
+    .redesfooter{
+        text-align: center;
+    }
+    .foot-redes{
+        text-align: center;
+    }
+    .lista01{
+        text-align: center;
+    }
+    .lista02{
+        text-align: center;
+    }
+    #nome-brand{
+        padding: 20px;
+    text-align: center;
+    }
+
 }
 
 /* organização tela de dados */
@@ -71,6 +241,7 @@ header {
   margin-top: 5%;
   margin-left: 17%;
 }
+
 
 /* mobile-dados*/
 @media (max-width: 576px) {
@@ -266,6 +437,7 @@ header {
   }
 }
 
+
 @media (min-width: 1200px) {
   .atcpoli {
     background-color: #fff;
@@ -313,6 +485,7 @@ main {
   text-align: center;
   padding-top: 40px;
 }
+
 
 /* organização da tela de sintomas */
 
