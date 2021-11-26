@@ -124,6 +124,14 @@ header {
     
 }
 
+@media(min-width: 992px){
+    #ul-nav{
+        padding-left: 42%;
+    }
+    
+    
+}
+
 #ul-nav a{
     font-size: 1.3em;
 
@@ -181,22 +189,34 @@ header {
     font-weight: bold;
     text-decoration: none;
 }
-
-/* .lista01{
-  
- 
-}
-
-.lista02{
    
-} */
-
 .predes{
     color: white;
 }
 
 .redesfooter{
     padding-right: 10px;
+}
+
+/* mobile-footer*/
+
+@media (max-width: 576px){
+    .redesfooter{
+        text-align: center;
+    }
+    .foot-redes{
+        text-align: center;
+    }
+    .lista01{
+        text-align: center;
+    }
+    .lista02{
+        text-align: center;
+    }
+    #nome-brand{
+        padding: 20px;
+    text-align: center;
+    }
 }
 
 /* mobile-footer*/
@@ -426,6 +446,7 @@ header {
       }
 }
 
+
 @media (min-width: 992px) {
   .atcpoli {
     background-color: #fff;
@@ -451,40 +472,6 @@ header {
 
 
 /* organização tela quem somos */
-
-/* organização da home */
-
-main {
-  padding-top: 56px;
-}
-
-.secredes {
-  text-align: center;
-  padding: 10px;
-}
-
-.redes {
-  height: 85px;
-  width: 85px;
-  padding: 25px;
-}
-
-.h1index {
-  padding: 25px;
-  padding-bottom: 35px;
-  padding: 28px;
-}
-
-.h1index {
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 30px;
-}
-
-.h3redes {
-  text-align: center;
-  padding-top: 40px;
-}
 
 
 /* organização da tela de sintomas */
