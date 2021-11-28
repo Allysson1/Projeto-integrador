@@ -408,6 +408,7 @@ header {
 
 .body-poli {
   background-color: #006fa5;
+  overflow-x: hidden;
 }
 
 @media (max-width: 576px){
@@ -472,6 +473,111 @@ header {
 
 
 /* organização tela quem somos */
+
+/* qs = quem somos */
+
+.qs{
+  clear: both;
+}
+
+/* lt = link tela */
+.lt{
+text-decoration: none;
+color: #006fa5;
+}
+
+
+.lt:hover{
+  color: #a3a3a3;
+}
+
+.h1qs{
+  margin-bottom:20px;
+}
+
+
+
+/* atc-qs = article-quem somos */
+@media (max-width: 576px){
+  .atc-qs {
+      background-color: #fff;
+      height: 100%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      box-shadow: 0 0 1em #464646;
+      font-size:0.8rem ;
+  }
+
+  
+
+}
+
+
+
+@media (min-width: 576px) {
+  .atc-qs {
+      background-color: #fff;
+      height: 100%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      box-shadow: 0 0 1em #464646;
+      font-size:0.8rem ;
+    }
+
+    .img-qs{
+      margin-left: 15%;
+    }
+
+  
+  }
+
+@media (min-width: 768px) {
+  .atc-qs {
+      background-color: #fff;
+      height: 100%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      box-shadow: 0 0 1em #464646;
+      font-size: 0.8rem;
+    }
+    .img-qs{
+      margin-left: 0%;
+    }
+
+  
+}
+
+
+@media (min-width: 992px) {
+  .atc-qs {
+  background-color: #fff;
+  height: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 0 0 1em #464646;
+  font-size: 1rem;
+}
+.img-qs{
+  margin-left: 0%;
+}
+
+}
+
+
+@media (min-width: 1200px) {
+.atc-qs {
+  background-color: #fff;
+  height: 100%; 
+  margin-top: 5%;
+  box-shadow: 0 0 1em #464646;
+  margin-bottom: 5%;
+  font-size: 1.2rem;
+}
+.img-qs{
+  margin-left: 0%;
+}
+
+}
 
 
 /* organização da tela de sintomas */
