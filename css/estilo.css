@@ -17,8 +17,8 @@ main{
 .secredes {
     text-align: center;
     padding: 10px;
-  
-
+    background-color: aqua;
+    
 }
 
 .redes {
@@ -142,7 +142,7 @@ header {
 
 #navbar {
   background-color: #ffd300;
-  /* background-image: url('../images/index.jpg'); */
+  /* background-image: url('../images/index.png'); */
 }
 
 #img-header {

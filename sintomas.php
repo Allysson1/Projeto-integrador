@@ -31,15 +31,11 @@
                     <h3>Febre</h3>
                     <img class="img-fluid" src="../Projeto-integrador/images/sintoma1.png" alt="">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                        ullamcorper,
-                        augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                        Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                        vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt ex in
-                        nibh
-                        sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a eros.
-                        Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                        tempor faucibus ipsum.
+                    A nossa temperatura corporal se mantém estável, pois tem uma área do nosso cérebro que faz esse controle, 
+                    chamada hipotálamo, que funciona como um termostato mantendo os órgãos internos a 37 ºC.
+                    Quando o organismo é afetado por alguma doença interna ou agente externo, 
+                    o nosso termostato pode fazer a temperatura subir entre 	dois ou três graus acima do habitual, 
+                    gerando assim a febre.
                     </p>
                 </section>
     
@@ -61,7 +57,7 @@
     
                 <section>
                     <h3>Cansaço</h3>
-                    <img src="#" alt="">
+                    <img class="img-fluid" src="../Projeto-integrador/images/sintoma3.png" alt="">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                         ullamcorper,
@@ -157,12 +153,13 @@
                 </p>
     
                 
-                    <h2>Sintomas Menos Comuns</h2>
+                <h2>Sintomas Mais Graves</h2>
                 
     
-                <section>
-                    <img src="#" alt="">
+                <section class="col-sm-12 col-md-12 col-lg-12">
+                    
                     <h3>Falta de Ar</h3>
+                    <img class="img-fluid" src="../Projeto-integrador/images/sintoma4.jpg" alt="">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                         ullamcorper,
@@ -176,9 +173,9 @@
                     </p>
                 </section>
     
-                <section>
-                    <img src="#" alt="">
+                <section class="col-sm-12 col-md-12 col-lg-12">
                     <h3>Perda de Fala, Mobilidade ou Confusão</h3>
+                    <img class="img-fluid" src="../Projeto-integrador/images/sintoma5.png" alt="">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                         ullamcorper,
@@ -192,9 +189,9 @@
                     </p>
                 </section>
     
-                <section>
-                    <img src="#" alt="">
+                <section class="col-sm-12 col-md-12 col-lg-12">
                     <h3>Dores no Peito</h3>
+                    <img class="img-fluid" src="../Projeto-integrador/images/sintoma6.png" alt="">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                         ullamcorper,
