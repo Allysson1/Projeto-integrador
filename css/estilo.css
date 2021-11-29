@@ -11,6 +11,7 @@ main{
 .secredes {
     text-align: center;
     padding: 10px;
+  
 
 }
 
@@ -21,15 +22,24 @@ main{
 
 }
 .h1index{
-
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     padding-top: 30px;
     padding-bottom: 30px;
+    color: #000;
+}
+
+.h3last{
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+
 }
 
 .h3redes{
     text-align: center;
     padding-top: 55px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
 }
 
 .secnews{
@@ -37,8 +47,16 @@ main{
     padding-bottom: 30px;
 }
 
+.h1news{
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+
+}
+
 .pindex{
     font-size: 1.2em;
+    font-family: 'Roboto Slab', serif;
+    color: #000;
 }
 
 .btnindex{
@@ -46,6 +64,7 @@ main{
     color: #fff;
     font-size: 1.2em;
     border-radius: 10px;
+    font-family: 'Roboto Slab', serif;
 }
 
 .btnindex:hover{
@@ -53,6 +72,7 @@ main{
     color: #fff;
     font-size: 1.2em;
     text-decoration: underline;
+    font-family: 'Roboto Slab', serif;
 
 }
 
@@ -65,45 +85,52 @@ main{
 .pmais{
     font-size: 1.2em;
     padding: 15px; 
-    
+    font-family: 'Roboto Slab', serif;
+
 }
 
 .h3mais{
     padding-left: 15px;
     padding-top: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
-/* mobile home */
-@media (max-width: 576px){
-
-    .secnews{
-        padding-bottom: 30px;
-        padding-left: 10px;
-    }
-
-    .h3redes{
-        padding-top: 25px;
-    }
-
-}
 
 .h3risco{
     text-align: center;
     font-size: 2.2em;
     padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #000;
 }
 
 .prisco{
     padding: 10px;
     font-size: 1.5em;
     text-align: left;
+    font-family: 'Roboto Slab', serif;
+    color: #000;
 }
 
+/* mobile home */
+@media (max-width: 576px){
+
+  .secnews{
+      padding-bottom: 30px;
+      padding-left: 10px;
+  }
+
+  .h3redes{
+      padding-top: 25px;
+  }
+
+}
 /* organização do header */
 
 header {
   height: 100%;
   width: 100%;
+  
 }
 
 #navbar {
@@ -133,7 +160,8 @@ header {
 }
 
 #ul-nav a{
-    font-size: 1.3em;
+    font-size: 1.2em;
+    font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -158,17 +186,15 @@ header {
 
 
 .foot-redes{
-    color: #fff;
+    fill: #fff;
     height: 85px;
     width: 85px;
     padding: 25px;
-    float: left;
 
 }
 
 #nome-brand{
     color: white;
-    clear: both;
 }
 
 .copy{
@@ -182,16 +208,21 @@ header {
     color: white;
     font-weight: bold;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .lista02 li a{
     color: white;
     font-weight: bold;
     text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
 }
    
 .predes{
     color: white;
+    font-weight: bold;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .redesfooter{
@@ -204,42 +235,27 @@ header {
     .redesfooter{
         text-align: center;
     }
-    .foot-redes{
-        text-align: center;
-    }
+
     .lista01{
         text-align: center;
     }
     .lista02{
         text-align: center;
     }
-    #nome-brand{
-        padding: 20px;
-    text-align: center;
+    .nomebrand {
+        color: #fff;
+        padding-left: 35%;
+        text-align: center;
+    }
+    .lista01 a{
+      font-size: 1.2em;
+    }
+   .lista02 a{
+
+      font-size: 1.2em;
     }
 }
 
-/* mobile-footer*/
-
-@media (max-width: 576px){
-    .redesfooter{
-        text-align: center;
-    }
-    .foot-redes{
-        text-align: center;
-    }
-    .lista01{
-        text-align: center;
-    }
-    .lista02{
-        text-align: center;
-    }
-    #nome-brand{
-        padding: 20px;
-    text-align: center;
-    }
-
-}
 
 /* organização tela de dados */
 
