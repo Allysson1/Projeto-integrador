@@ -32,3 +32,13 @@ main{
     text-align: center;
 }
 
+
+.proximasnoticias {
+    width: 1345px;
+    margin-top: 10px;
+    display: flex;
+    color: #000;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
+}
+
