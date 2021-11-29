@@ -6,6 +6,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/estilo.css">
 
@@ -23,7 +25,7 @@
           <section class="secnews"> 
 
             <h1 class="h1index">O que você procura ?</h1>
-            <h3>Ultimas Notícias: </h3>
+            <h3 class="h3last">Ultimas Notícias: </h3>
             <p>01/01/2021</p>
             <img src="#" alt="">
             <p class="pindex">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -34,19 +36,7 @@
           </section>
           <section class="secnews">
 
-            <h1>O que você procura ?</h1>
-            <p>01/01/2021</p>
-            <img src="#" alt="">
-            <p class="pindex">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-              Optio et cum rem. Quas accusantium, soluta iste modi minima quasi ipsum delectus ipsam
-              cumque enim magnam velit inventore harum dolores? Sapiente.</p>
-            <a href="#" class="btn btn-md btnindex">Leia Mais...</a>
-
-          </section>
-
-          <section class="secnews">
-
-            <h1>O que você procura ?</h1>
+            <h3 class="h1news">O que você procura ?</h1>
             <p>01/01/2021</p>
             <img src="#" alt="">
             <p class="pindex">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
@@ -58,7 +48,19 @@
 
           <section class="secnews">
 
-            <h1>O que você procura ?</h1>
+            <h3 class="h1news">O que você procura ?</h1>
+            <p>01/01/2021</p>
+            <img src="#" alt="">
+            <p class="pindex">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Optio et cum rem. Quas accusantium, soluta iste modi minima quasi ipsum delectus ipsam
+              cumque enim magnam velit inventore harum dolores? Sapiente.</p>
+            <a href="#" class="btn btn-md btnindex">Leia Mais...</a>
+
+          </section>
+
+          <section class="secnews">
+
+            <h3 class="h1news">O que você procura ?</h1>
             <p>01/01/2021</p>
             <img src="#" alt="">
             <p class="pindex">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
