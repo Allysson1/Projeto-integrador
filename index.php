@@ -7,7 +7,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
   <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/estilo.css">
 
@@ -23,7 +24,7 @@
       <div class="row">
         <article class="col-sm-8 col-md-7 col-lg-8">
           <section class="secnews"> 
-
+          
             <h1 class="h1index">O que você procura ?</h1>
             <h3 class="h3last">Ultimas Notícias: </h3>
             <p>01/01/2021</p>
@@ -76,10 +77,11 @@
 
           <section class="secredes">
             <h3 class="h3redes">Redes Sociais:</h3>
-            <img src="../Projeto-integrador/icons/facebook.svg" alt="" class="redes">
-            <img src="../Projeto-integrador/icons/instagram.svg" alt="" class="redes">
-            <img src="../Projeto-integrador/icons/twitter.svg" alt="" class="redes">
-            <img src="../Projeto-integrador/icons/linkedin.svg" alt="" class="redes">
+            <span class="bi bi-facebook redes"></span>
+            <span class="bi bi-instagram redes"></span>
+            <span class="bi bi-twitter redes"></span>
+            <span class="bi bi-linkedin redes"></span>
+
           </section>
 
           <section class="secmais">

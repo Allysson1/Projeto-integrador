@@ -3,11 +3,15 @@
 
 <head>
     <title>Política de Privacidade</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/estilo.css">
 
-    <link rel="stylesheet" href="../projeto-integrador/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../projeto-integrador/css/estilo.css">
     <script src="/js/bootstrap.min.js"></script>
 </head>
 
@@ -70,9 +74,11 @@
 
 
     </div>
-    <footer>
-        <?php include 'footer.php'; ?>
+    <footer class="footer">
+      <?php include 'footer.php'; ?>
     </footer>
+    <p class="copy"><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
+
 </body>
 
 </html>
