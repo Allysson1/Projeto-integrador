@@ -23,13 +23,13 @@ echo '
               Covid-19
             </a>
             <ul class="dropdown-menu" id="nav-drop">
-            <li><a class="dropdown-item" href="../Projeto-integrador/covid.html" >O que é ?</a></li>
+            <li><a class="dropdown-item" href="../Projeto-integrador/covid.php" >O que é ?</a></li>
               <li><a class="dropdown-item " href="../Projeto-integrador/sintomas.php" id="adrop">Sintomas</a></li>
-              <li><a class="dropdown-item " href="../Projeto-integrador/sobrevacinas.html" >Vacinas</a></li>
+              <li><a class="dropdown-item " href="../Projeto-integrador/sobrevacinas.php" >Vacinas</a></li>
             </ul>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="../Projeto-integrador/3-dados.html">Dados Atualizados</a>
+              <a class="nav-link" href="../Projeto-integrador/3-dados.php">Dados Atualizados</a>
              </li>
              <li class="nav-item">
                 <a class="nav-link" href="../Projeto-integrador/contato.php">Contatos</a>
@@ -44,5 +44,3 @@ echo '
 </body>
 
 </html>';
-
-?>
