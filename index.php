@@ -2,12 +2,13 @@
 <html lang="pt-br">
 
 <head>
-  <title>Portal Covid</title>
+<title>Portal Covid</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
   <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/estilo.css">
 
@@ -80,11 +81,11 @@
         <aside class="col-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
 
           <section class="secredes">
-            <h3 class="h3redes">Redes Sociais:</h3>
-            <img src="../Projeto-integrador/icons/facebook.svg" alt="" class="redes">
-            <img src="../Projeto-integrador/icons/instagram.svg" alt="" class="redes">
-            <img src="../Projeto-integrador/icons/twitter.svg" alt="" class="redes">
-            <img src="../Projeto-integrador/icons/linkedin.svg" alt="" class="redes">
+          <h3 class="h3redes">Redes Sociais:</h3>
+            <span class="bi bi-facebook redes"></span>
+            <span class="bi bi-instagram redes"></span>
+            <span class="bi bi-twitter redes"></span>
+            <span class="bi bi-linkedin redes"></span>
           </section>
 
           <section class="secmais">

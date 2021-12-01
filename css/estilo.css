@@ -131,6 +131,10 @@ header {
   /* background-image: url('../images/index.png'); */
 }
 
+.btn-nav{
+  font-size: 1.7em;
+}
+
 #img-header {
   overflow-x: hidden;
 }
@@ -171,13 +175,13 @@ header {
   background-color: #2d2d2d;
 }
 
-.foot-redes {
-  fill: #fff;
-  height: 85px;
-  width: 85px;
+.foot-redes{
+  color: #fff;
+  font-size: 1.5em;
   padding: 25px;
-}
+  
 
+}
 #nome-brand {
   color: white;
 }
@@ -203,15 +207,17 @@ header {
   font-family: "Open Sans", sans-serif;
 }
 
-.predes {
+.predes{
   color: white;
   font-weight: bold;
   padding: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
-.redesfooter {
+.redesfooter{
   padding-right: 10px;
+  padding-bottom: 15px;
+  
 }
 
 /* mobile-footer*/
@@ -610,10 +616,36 @@ header {
 
 /* organização da tela de sintomas */
 
-.h1cor {
+h1cor {
   padding: 25px;
   padding-bottom: 35px;
   text-align: center;
+}
+
+.h2sintomas{
+  background-color: #006fa5;
+  color:#fff;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sec01sint{
+  background-color: #168aad;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.h2secsint{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.imgsint{
+  padding-left: 8px;
+}
+
+.psint{
+  font-family: 'Roboto Slab', serif;
 }
 
 /* tela vacinas */
