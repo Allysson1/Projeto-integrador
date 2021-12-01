@@ -10,8 +10,8 @@
   <script src="/js/bootstrap.min.js"></script>
 </head>
 
-<main>
-<body class="body-dados">
+
+<body class="body-dados pt-lg-3">
   <header>
     <?php include 'header.php'; ?>
   </header>
@@ -19,7 +19,7 @@
   <div class="row">
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
       <!--     conteúdo principal-->
-      
+
       <article class="row p-3">
         <h1 class="text-center espacamento">Corona Virus no Brasil</h1>
 
@@ -86,15 +86,15 @@
           vírus.
         </p>
 
-        <section class="sct-sm">
-          <a href="sobrevacinas.php"><img src="images/seringa2.jpg" class="col-6 col-sm-4 imglink-sm" /></a>
+        <div class="sct-sm">
+          <a href="sobrevacinas.php"><img src="images/seringa2.jpg" alt="imagem representando uma seringa para fazer referencia as vacinas." class="col-6 col-sm-4 imglink-sm" /></a>
 
           <p class="text-center col-sm-8 col-md-8 pimglink">
             Acompanhe agora as principais vacinas que estão sendo asplicadas
             na população, suas reações, e a quantidade de pessoas vacinadas no
             Brasil.
           </p>
-        </section>
+        </div>
         <a class="anavdados aimglink" href="https://br.pinterest.com/pin/569142471671144799/">Referência: Pinterest</a>
 
         <h1 id="dadosM" class="text-center espacamento">
@@ -143,7 +143,7 @@
           do mundo que já supera a marca dos 150 milhões de curados.
         </p>
 
-        <section class="sct-sm">
+        <div class="sct-sm">
           <a href="sintomas.php"><img src="images/sintomad.jpg" class="col-sm-4 col-lg-3 imglink-sm" alt="imagem represnetando os sintomas doi Covid-19" /></a>
           <p class="text-center col-sm-8 col-md-8 col-lg-8 pimglink">
             Veja agora os principais sintomas do Covid-19, o que fazer quando
@@ -151,7 +151,7 @@
             vírus para ninguém próximo de você como a família ou pessoas e
             amigos na rua.
           </p>
-        </section>
+        </div>
         <a class="anavdados aimglink" href="https://br.pinterest.com/pin/569142471671144799/">Referência: Cemig Saúde</a>
 
         <h3 class="text-center espacamento">
@@ -184,24 +184,24 @@
           grande influencia na necessidade de tecnologias novas.
         </p>
 
-        <section id="outros">
+        <div id="outros">
           <a href="covid.php"><img src="images/compleementar1.png" alt="imagem para fazer concatenação com a pagina Covid-19" class="border col-sm-4 col-lg-3 imglink-dados" /></a>
           <a href="sobrevacinas.html"><img src="images/complementar2.png" alt="imagem para fazer concatenação com a pagina vacinas" class="border col-sm-4 col-lg-3 imglink-dados" /></a>
           <a href="sintomas.php"><img src="images/complementar3.png" alt="imagem para fazer concatenação com a pagina sintomas" class="border col-sm-4 col-lg-3 imglink-dados" /></a>
-        </section>
+        </div>
       </article>
     </div>
 
     <div class="col-xs-12 col-sm-3 col-md- col-lg-4">
       <aside class="asidedados">
         <!--navegação de segundoi grau-->
-        <nav class="col-lg-10 justify-content-center">
-          <ul class="nav">
+        <nav class="col-lg-12 justify-content-center">
+          <ul class="nav mt-lg-4">
             <li>
-              <a class="nav-link anavdados mt-lg-3" href="3-dados.php#taxa">Taxa de mortalidade</a>
+              <a class="nav-link anavdados mt-lg-5" href="3-dados.php#taxa">Taxa de mortalidade</a>
             </li>
             <li>
-              <a class="nav-link anavdados mt-lg-3" href="3-dados.php#dadosB">Dados Do Brasil</a>
+              <a class="nav-link anavdados mt-lg-5" href="3-dados.php#dadosB">Dados Do Brasil</a>
             </li>
             <li>
               <a class="nav-link anavdados" href="3-dados.php#dadosM">Dados Do mundo</a>
@@ -216,21 +216,21 @@
         </nav>
 
         <!--indicações de assunto que levam a outra pagina-->
-        <section class="imgaside">
-          <a href=""><img src="images/seringa2.jpg" class="mx-auto d-block col-lg-6" /></a>
+        <div class="imgaside">
+          <a href=""><img src="images/seringa2.jpg" alt="imagem representado uma seringa para fazer referencia a vacina" class="mx-auto d-block col-lg-6" /></a>
           <a class="anavdados aimglink" href="https://br.pinterest.com/pin/569142471671144799/">Referência: Pinterest</a>
-        </section>
+        </div>
         <p class="text-center col-sm-8 col-md-8 col-lg-8 paside">
           Acompanhe agora as principais vacinas que estão sendo asplicadas na
           população, suas reações, e a quantidade de pessoas vacinadas no
           Brasil
         </p>
 
-        <section class="imgasides">
+        <div class="imgasides">
           <a href="sintomas.php"><img src="images/sintomad.jpg" class="mx-auto d-block col-lg-6" alt="imagem represnetando os sintomas doi Covid-19" /></a>
 
           <a class="anavdados aimglink" href="https://br.pinterest.com/pin/569142471671144799/">Referência: Cemig Saúde</a>
-        </section>
+        </div>
         <p class="text-center col-sm-8 col-md-8 col-lg-8 paside">
           Veja agora os principais sintomas do Covid-19, o que fazer quando
           sentir algum deles, e como se previnir para que o não transmita o
@@ -244,6 +244,6 @@
     <?php include 'footer.php'; ?>
   </footer>
 </body>
-</main>
+
 
 </html>

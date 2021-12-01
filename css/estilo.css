@@ -404,7 +404,7 @@ header {
 
   .asidedados {
     display: block;
-    background-image: linear-gradient(to bottom, #006fa5, #0c326f);
+    background-color: #006fa5;
     height: 100%;
   }
 
