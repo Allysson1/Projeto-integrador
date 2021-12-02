@@ -20,7 +20,7 @@
     <?php include 'header.php'; ?>
 
     <main>
-      <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="">
+      <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="imagem principal do topo do portal covid">
       <div class="row">
 
         <article class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
@@ -134,7 +134,7 @@
             <h3 class="h3mais">Mais Lidas</h3>
             <a href="dados.php#evolucao"><img src="../projeto-integrador/images/inovação.png" alt="imagem quee representa as inovações conquistadas na pandemia" class="mx-auto d-block col-lg-8"></a>
             <a class="arefhome" href="https://blog.aevo.com.br/como-aplicar-gestao-da-inovacao-em-grandes-empresas/">Referência: Blog AEVO</a>
-            <p class="text-center col-sm-8 col-md-8 col-lg-8 pmais">Mesmo a pandemia trasendo muita tristesa e sofrimento para o mundo,
+            <p class="text-center col-sm-8 col-md-8 col-lg-8 pmais">Mesmo a pandemia trazendo muita tristesa e sofrimento para o mundo,
               não podemos negar que muitos avanços tecnologicos vieram por causa da pandemia, clique neste 
               post e leia mais sobre o assunto.
             </p>

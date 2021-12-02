@@ -18,6 +18,7 @@
 <body class="body-dados pt-lg-3">
   <header>
     <?php include 'header.php'; ?>
+    <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="imagem principal do topo do portal covid">
   </header>
 
   <div class="row">
@@ -199,13 +200,13 @@
     <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
       <aside class="asidedados">
         <!--navegação de segundoi grau-->
-        <nav class="col-lg-12 justify-content-center">
-          <ul class="nav mt-lg-4">
+        <nav class="col-lg-10">
+          <ul class="nav">
             <li>
-              <a class="nav-link anavdados mt-lg-5" href="dados.php#taxa">Taxa de mortalidade</a>
+              <a class="nav-link anavdados" href="dados.php#taxa">Taxa de mortalidade</a>
             </li>
             <li>
-              <a class="nav-link anavdados mt-lg-5" href="dados.php#dadosB">Dados Do Brasil</a>
+              <a class="nav-link anavdados" href="dados.php#dadosB">Dados Do Brasil</a>
             </li>
             <li>
               <a class="nav-link anavdados" href="dados.php#dadosM">Dados Do mundo</a>
