@@ -10,14 +10,14 @@ echo'
                         Portal Covid
                   </a>
                   <ul class="lista01">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Vacinas</a></li>
-                        <li><a href="#">Sintomas</a></li>
+                        <li><a href="../projeto-integrador/index.php">Home</a></li>
+                        <li><a href="../projeto-integrador/sobrevacinas.php">Vacinas</a></li>
+                        <li><a href="../projeto-integrador/sintomas.php">Sintomas</a></li>
 
                   </ul>
                   <ul class="lista02">
-                         <li><a href="#">Contato</a></li>
-                         <li><a href="#">Quem Somos</a></li>
+                         <li><a href="../Projeto-integrador/contato.php">Contato</a></li>
+                         <li><a href="../Projeto-integrador/quem-somos.php">Quem Somos</a></li>
                         <li><a href="../Projeto-integrador/politica-privacidade.php">Política de Privacidade</a></li>
                   </ul>
             </nav>
@@ -36,3 +36,5 @@ echo'
 
 </html>
       ';
+
+      ?>
