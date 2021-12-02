@@ -10,7 +10,9 @@ echo '
                      Portal Covid
                </a>
                <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
-               <span class="navbar-toggler-icon" id="btn-nav"></span>
+
+               <span class="bi bi-list text-right btn-nav"></span>
+
                </button>
 
             <div class="collapse navbar-collapse" id="navbarToggleExternalContent">

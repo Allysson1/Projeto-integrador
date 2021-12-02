@@ -11,6 +11,16 @@ main {
 }
 
 .secredes {
+
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 20px;
+
+}
+
+.redes {
+  font-size: 2em;
+  padding: 25px;
   text-align: center;
   padding: 10px;
   
@@ -20,7 +30,9 @@ main {
   height: 85px;
   width: 85px;
   padding: 25px;
+
 }
+
 .h1index {
   font-family: "Open Sans", sans-serif;
   text-align: center;
@@ -145,7 +157,7 @@ margin-left: 15%;
   
   }
 
-  
+
 
 /* organização do header */
 
@@ -159,6 +171,19 @@ header {
   /* background-image: url('../images/index.png'); */
 }
 
+.btn-nav {
+  font-size: 1.7em;
+}
+
+@media(min-width: 992px) {
+  #ul-nav {
+    padding-left: 42%;
+  }
+
+
+
+}
+
 #img-header {
   overflow-x: hidden;
 }
@@ -167,8 +192,6 @@ header {
   #ul-nav {
     padding-left: 42%;
   }
-  
-}
 
 #ul-nav a {
   font-size: 1.2em;
@@ -195,10 +218,18 @@ header {
 }
 
 .foot-redes {
-  fill: #fff;
-  height: 85px;
-  width: 85px;
+
+  color: #fff;
+  font-size: 1.5em;
   padding: 25px;
+
+
+  color: #fff;
+  font-size: 1.5em;
+  padding: 25px;
+
+
+
 }
 
 #nome-brand {
@@ -230,11 +261,20 @@ header {
   color: white;
   font-weight: bold;
   padding: 10px;
-  font-family: "Open Sans", sans-serif;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .redesfooter {
+
   padding-right: 10px;
+  padding-bottom: 15px;
+
+
+  padding-right: 10px;
+  padding-bottom: 15px;
+
+
+}
 }
 
 /* mobile-footer*/
@@ -242,22 +282,27 @@ header {
 @media (max-width: 576px) {
   .redesfooter {
     text-align: center;
+
   }
 
   .lista01 {
     text-align: center;
   }
+
   .lista02 {
     text-align: center;
   }
+
   .nomebrand {
     color: #fff;
     padding-left: 35%;
     text-align: center;
   }
+
   .lista01 a {
     font-size: 1.2em;
   }
+
   .lista02 a {
     font-size: 1.2em;
   }
@@ -390,69 +435,54 @@ header {
     margin-top: 3%;
   }
 }
+   
 
-/* tablet-dados*/
-@media (min-width: 768px) {
-  .asidedados {
-    display: none;
-  }
+    @media (max-width: 576px) {
+      .redesfooter {
+        text-align: center;
+      }
 
-  .nav-tablet {
-    display: block;
-    margin-left: 3%;
-  }
+      .lista01 {
+        text-align: center;
+      }
 
-  .aref {
-    text-decoration: none;
-    color: #006fa5;
-  }
+      .lista02 {
+        text-align: center;
+      }
 
-  .imglink-dados {
-    margin-top: 5%;
-    margin-left: 10%;
-  }
+      .nomebrand {
+        color: #fff;
+        padding-left: 35%;
+        text-align: center;
+      }
 
-  .sct-sm {
-    display: block;
-  }
-}
+      .lista01 a {
+        font-size: 1.2em;
+      }
 
-@media (min-width: 992px) {
-  .body-dados {
-    font-size: 1.2rem;
-  }
+      .lista02 a {
+        font-size: 1.2em;
+      }
+    }
 
-  .pimg {
-    font-size: 1rem;
-  }
+    
 
-  .asidedados {
-    display: block;
-    background-color: #006fa5;
-    height: 100%;
-  }
+    /* organização tela de dados */
 
-  .nav-tablet {
-    display: none;
-  }
+    .body-dados {
+      overflow-x: hidden;
+      font-size: 0.8rem;
 
-  .imglink-dados {
-    margin-top: 5%;
-    margin-left: 5%;
-  }
+    }
 
-  .sct-sm {
-    display: none;
-  }
+    .anavdados {
+      text-decoration: none;
+    }
 
-  .imgaside {
-    margin-top: 5%;
-  }
-
-  .nav {
-    font-size: 1rem;
-    margin-left: 20%;
-  }
+    .imglink-dados {
+      margin-top: 5%;
+      margin-left: 5%;
+    }
 
   .anavdados,
   .paside {
@@ -476,7 +506,7 @@ header {
     margin-left: 10%;
     font-size: 0.9rem;
   }
-}
+
 
 /* organização politica de privacidade */
 
