@@ -33,12 +33,36 @@ main{
 }
 
 
-.proximasnoticias {
-    width: 1345px;
-    margin-top: 10px;
+
+  
+/* organização tela covid */
+
+.bodycovid{
+
+    margin-left: 40px;
+    margin-right: 40px;
     display: flex;
-    color: #000;
-    font-family: 'Roboto Slab', serif;
-    font-size: 1.1em;
 }
 
+.nav-covid{    
+    margin-left: 28px;
+    margin-top: 50px;
+    width: 322px;
+    float: left;
+}
+
+.texto-covd {
+    margin-left: 10px;
+    float: right;
+}
+
+.card{
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+
+.imagem-transmicao img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
