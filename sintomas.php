@@ -71,16 +71,9 @@
 
                     <h3>Dores na Ganganta</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                        ullamcorper,
-                        augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                        Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                        vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt ex
-                        in
-                        nibh
-                        sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a eros.
-                        Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                        tempor faucibus ipsum.
+                    A dor na garganta é um dos sintomas mais comuns em diversas doenças, 
+                    podendo também aparecer como uma condição do Coronavírus. 
+                    Ela provocada por uma inflamação na faringe, laringe ou amídalas, causando um incomodo. 
                     </p>
 
                     <h3>Dor de Cabeça</h3>
