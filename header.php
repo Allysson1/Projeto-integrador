@@ -10,7 +10,9 @@ echo '
                      Portal Covid
                </a>
                <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+
                <span class="bi bi-list text-right btn-nav"></span>
+
                </button>
 
             <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
@@ -29,13 +31,13 @@ echo '
             </ul>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="../Projeto-integrador/3-dados.php">Dados Atualizados</a>
+              <a class="nav-link" href="../Projeto-integrador/dados.php">Dados Atualizados</a>
              </li>
              <li class="nav-item">
                 <a class="nav-link" href="../Projeto-integrador/contato.php">Contatos</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="../Projeto-integrador/quem-somos.html">Quem Somos</a>
+               <a class="nav-link" href="../Projeto-integrador/quem-somos.php">Quem Somos</a>
             </div>
             </ul>
           </div>

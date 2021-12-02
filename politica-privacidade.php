@@ -11,7 +11,7 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
     <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/estilo.css">s
     <script src="/js/bootstrap.min.js"></script>
 </head>
 
@@ -74,9 +74,11 @@
 
 
     </div>
-    <footer>
-        <?php include 'footer.php'; ?>
+    <footer class="footer">
+      <?php include 'footer.php'; ?>
     </footer>
+    <p class="copy"><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
+
 </body>
 
 </html>

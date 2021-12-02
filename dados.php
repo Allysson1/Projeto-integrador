@@ -34,14 +34,14 @@
           <!-- lh-1 = line height -->
 
           <ul class="nav nav-fill">
-            <li><a class="nav-link anavdados" href="">Dados Do Brasil</a></li>
-            <li><a class="nav-link anavdados" href="">Pessoas Curadas</a></li>
-            <li><a class="nav-link anavdados" href="">dados Do mundo</a></li>
+            <li><a class="nav-link anavdados" href="dados.php#taxa">Taxa de mortalidade</a></li>
+            <li><a class="nav-link anavdados" href="dados.php#dadosB">Dados Do Brasil</a></li>
+            <li><a class="nav-link anavdados" href="dados.php#dadosM">Dados Do mundo</a></li>
             <li>
-              <a class="nav-link anavdados" href="">Pessoas Curadas ao redor do mundo</a>
+              <a class="nav-link anavdados" href="dados.php#contmundo">contaminação do mundo</a>
             </li>
             <li>
-              <a class="nav-link anavdados" href="">Medidas tomadas para prevenção</a>
+              <a class="nav-link anavdados" href="dados.php#outros">Outros assuntos</a>
             </li>
           </ul>
         </nav>
@@ -156,9 +156,9 @@
             amigos na rua.
           </p>
         </div>
-        <a class="anavdados aimglink" href="https://br.pinterest.com/pin/569142471671144799/">Referência: Cemig Saúde</a>
+        <a class="anavdados aimglink" href="https://www.cemigsaude.org.br/site/home">Referência: Cemig Saúde</a>
 
-        <h3 class="text-center espacamento">
+        <h3 id="evolucao" class="text-center espacamento">
           Evoluções decorrentes da Pandemia
         </h3>
         <p>
@@ -190,31 +190,31 @@
 
         <div id="outros">
           <a href="covid.php"><img src="images/compleementar1.png" alt="imagem para fazer concatenação com a pagina Covid-19" class="border col-sm-4 col-lg-3 imglink-dados" /></a>
-          <a href="sobrevacinas.html"><img src="images/complementar2.png" alt="imagem para fazer concatenação com a pagina vacinas" class="border col-sm-4 col-lg-3 imglink-dados" /></a>
+          <a href="sobrevacinas.php"><img src="images/complementar2.png" alt="imagem para fazer concatenação com a pagina vacinas" class="border col-sm-4 col-lg-3 imglink-dados" /></a>
           <a href="sintomas.php"><img src="images/complementar3.png" alt="imagem para fazer concatenação com a pagina sintomas" class="border col-sm-4 col-lg-3 imglink-dados" /></a>
         </div>
       </article>
     </div>
 
-    <div class="col-xs-12 col-sm-3 col-md- col-lg-4">
+    <div class="col-xs-12 col-sm-3 col-md-4 col-lg-4">
       <aside class="asidedados">
         <!--navegação de segundoi grau-->
         <nav class="col-lg-12 justify-content-center">
           <ul class="nav mt-lg-4">
             <li>
-              <a class="nav-link anavdados mt-lg-5" href="3-dados.php#taxa">Taxa de mortalidade</a>
+              <a class="nav-link anavdados mt-lg-5" href="dados.php#taxa">Taxa de mortalidade</a>
             </li>
             <li>
-              <a class="nav-link anavdados mt-lg-5" href="3-dados.php#dadosB">Dados Do Brasil</a>
+              <a class="nav-link anavdados mt-lg-5" href="dados.php#dadosB">Dados Do Brasil</a>
             </li>
             <li>
-              <a class="nav-link anavdados" href="3-dados.php#dadosM">Dados Do mundo</a>
+              <a class="nav-link anavdados" href="dados.php#dadosM">Dados Do mundo</a>
             </li>
             <li>
-              <a class="nav-link anavdados" href="3-dados.php#contmundo">contaminação do mundo</a>
+              <a class="nav-link anavdados" href="dados.php#contmundo">contaminação do mundo</a>
             </li>
             <li>
-              <a class="nav-link anavdados" href="3-dados.php#outros">Outros assuntos</a>
+              <a class="nav-link anavdados" href="dados.php#outros">Outros assuntos</a>
             </li>
           </ul>
         </nav>
@@ -233,7 +233,7 @@
         <div class="imgasides">
           <a href="sintomas.php"><img src="images/sintomad.jpg" class="mx-auto d-block col-lg-6" alt="imagem represnetando os sintomas doi Covid-19" /></a>
 
-          <a class="anavdados aimglink" href="https://br.pinterest.com/pin/569142471671144799/">Referência: Cemig Saúde</a>
+          <a class="anavdados aimglink" href="https://www.cemigsaude.org.br/site/home">Referência: Cemig Saúde</a>
         </div>
         <p class="text-center col-sm-8 col-md-8 col-lg-8 paside">
           Veja agora os principais sintomas do Covid-19, o que fazer quando
