@@ -24,9 +24,9 @@
             <img src="../Projeto-integrador/images/sintomas.png" class="img-fluid" id="img-header" alt="">
             <div class="row">
 
-                <article class="col-sm-8 col-md-6 col-lg-8">
+                <article class="col-sm-12 col-md-12 col-lg-8">
 
-                    <h1 class="h1cor">Coronavírus</h1>
+                    <h1 class="h1cor text-center">Coronavírus</h1>
 
 
                     <h2 class="h2sintomas">Sintomas Comuns</h2>
@@ -41,44 +41,27 @@
                             chamada hipotálamo, que funciona como um termostato mantendo os órgãos internos a 37 ºC.
                             Quando o organismo é afetado por alguma doença interna ou agente externo,
                             o nosso termostato pode fazer a temperatura subir entre dois ou três graus acima do
-                            habitual,
-                            gerando assim a febre.
+                            habitual,gerando assim a febre.
                         </p>
                     </section>
 
-                    <section>
-                        <h3>Tosse</h3>
-                        <img class="img-fluid" src="../Projeto-integrador/images/sintoma2.jpg" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                            ullamcorper,
-                            augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                            Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                            vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt
-                            ex in
-                            nibh
-                            sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a
-                            eros.
-                            Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                            tempor faucibus ipsum.
+                    <section class="sec01sint">
+                        <h3 class="text-center h2secsint">Tosse</h3>
+                        <img class="img-fluid imgsint" src="../Projeto-integrador/images/sintoma2.jpg" alt="">
+                        <p class="psint">
+                        A tosse é um processo natural do sistema respiratório, que surge a partir de uma irritação. 
+                        Ela pode ser sintoma de muitas doenças, até um câncer de pulmão, 
+                        e também é um sintoma comum da Covid-19.
                         </p>
                     </section>
 
-                    <section>
-                        <h3>Cansaço</h3>
-                        <img class="img-fluid" src="../Projeto-integrador/images/sintoma3.jpg" alt="">
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                            ullamcorper,
-                            augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                            Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                            vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt
-                            ex in
-                            nibh
-                            sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a
-                            eros.
-                            Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                            tempor faucibus ipsum.
+                    <section class="sec01sint">
+                        <h3 class="text-center h2secsint">Cansaço</h3>
+                        <img class="img-fluid imgsint" src="../Projeto-integrador/images/sintoma3.jpg" alt="">
+                        <p class="psint">
+                        O cansaço causado pelo coronavírus é sentido quando é realizado algum tipo de esforço, 
+                        por exemplo o simples fato de andar um pouco mais rápido e sentir uma intensa fadiga, 
+                        acompanhada de falta de ar.
                         </p>
                     </section>
 
@@ -229,7 +212,7 @@
 
                 </article>
 
-                <aside class="col-sm-4 col-md-6 col-lg-4">
+                <aside class="col-sm-12 col-md-12 col-lg-4">
                     <h2> O que fazer se você testou positivo para Covid-19 ?</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas

@@ -13,12 +13,11 @@ main {
 .secredes {
   text-align: center;
   padding: 10px;
-  background-color: aqua;
+ 
 }
 
 .redes {
-  height: 85px;
-  width: 85px;
+  font-size: 2em;
   padding: 25px;
 }
 .h1index {
@@ -616,10 +615,9 @@ header {
 
 /* organização da tela de sintomas */
 
-h1cor {
-  padding: 25px;
-  padding-bottom: 35px;
-  text-align: center;
+.h1cor{
+  padding: 25px 0 25px 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .h2sintomas{
@@ -638,14 +636,19 @@ h1cor {
 
 .h2secsint{
   font-family: 'Open Sans', sans-serif;
+  padding: 10px 0px 10px 0px;
 }
 
 .imgsint{
   padding-left: 8px;
+  float: left;
 }
 
 .psint{
   font-family: 'Roboto Slab', serif;
+  clear: both;
+  
+  
 }
 
 /* tela vacinas */

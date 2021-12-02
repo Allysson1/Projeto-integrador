@@ -31,7 +31,7 @@
 
 
           <div class="secnews float-md-start float-lg-start float-xl-start col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <img src="../projeto-integrador/images/sintoma1.png" alt="imagem com termometro com o intuito de se referir aos sintomas do covd " class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+            <img src="../Projeto-integrador/images/sintoma1.jpg" alt="imagem com termometro com o intuito de se referir aos sintomas do covd " class=" img-fluid col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
             <h2 class="text-center">Príncipais Sintomas</h2>
             <p>Atualizado em 01/11/2021</p>
             <p class="pindex">Veja agora os principais sintomas do Covid-19, o que fazer quando
@@ -43,7 +43,7 @@
 
 
           <div class="secnews float-md-end float-lg-end float-xl-end col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
-            <img src="../projeto-integrador/images/grafico.png" alt="imagem representando um grafico  com o intuido de se referir aos dados do Covid-19" class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+            <img src="../Projeto-integrador/images/grafico.png" alt="imagem representando um grafico  com o intuido de se referir aos dados do Covid-19" class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
             <h2 class="Text-center">Dados do COvid-19</h2>
             <p>Atualizado em 01/11/2021</p>
             <p class="pindex">Veja agora os priíncipais dados do Covid-19 no Brasil e no mundo, vendo desde o número de infectados, até o número
