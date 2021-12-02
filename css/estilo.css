@@ -13,7 +13,7 @@ main {
 .secredes {
   text-align: center;
   padding: 10px;
-  background-color: aqua;
+  
 }
 
 .redes {
@@ -67,10 +67,10 @@ main {
 }
 
 .btnindex:hover {
-  background-color: #006fa5;
+  background-color: #a3a3a3;;
   color: #fff;
   font-size: 1.2em;
-  text-decoration: underline;
+  text-decoration: none;
   font-family: "Roboto Slab", serif;
 }
 
@@ -78,13 +78,10 @@ main {
   background-color: #168aad;
   color: #fff;
   border-radius: 10px;
+  height: 65%;
 }
 
-.pmais {
-  font-size: 1.2em;
-  padding: 15px;
-  font-family: "Roboto Slab", serif;
-}
+
 
 .h3mais {
   padding-left: 15px;
@@ -108,17 +105,48 @@ main {
   color: #000;
 }
 
+.arefhome{
+  text-decoration: none;
+  color: #fff;
+font-size: 00.8rem;
+margin-left: 10%;
+}
+
+.arefhome:hover{
+  color: #a3a3a3;
+}
+
+.pmais {
+  font-family: "Roboto Slab", serif;
+margin-top: 5%;
+margin-left: 15%;
+
+}
+
 /* mobile home */
 @media (max-width: 576px) {
   .secnews {
-    padding-bottom: 30px;
-    padding-left: 10px;
+    padding-bottom: 5%;
+    margin-left: 5%;
   }
 
   .h3redes {
     padding-top: 25px;
   }
-}
+
+  .pmais {
+    font-family: "Roboto Slab", serif;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+  margin-left: 0%;
+  
+  }
+  
+  
+  }
+
+  
+
 /* organização do header */
 
 header {
@@ -139,12 +167,7 @@ header {
   #ul-nav {
     padding-left: 42%;
   }
-}
-
-@media (min-width: 992px) {
-  #ul-nav {
-    padding-left: 42%;
-  }
+  
 }
 
 #ul-nav a {
@@ -269,6 +292,7 @@ header {
 /* mobile-dados*/
 @media (max-width: 576px) {
   .aref {
+    text-decoration: none;
     color: #006fa5;
   }
 
@@ -450,7 +474,7 @@ header {
 
   .aimglink {
     margin-left: 10%;
-    font-size: 00.9rem;
+    font-size: 0.9rem;
   }
 }
 

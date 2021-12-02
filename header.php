@@ -29,13 +29,13 @@ echo '
             </ul>
             </li>
              <li class="nav-item">
-              <a class="nav-link" href="../Projeto-integrador/3-dados.php">Dados Atualizados</a>
+              <a class="nav-link" href="../Projeto-integrador/dados.php">Dados Atualizados</a>
              </li>
              <li class="nav-item">
                 <a class="nav-link" href="../Projeto-integrador/contato.php">Contatos</a>
              </li>
              <li class="nav-item">
-               <a class="nav-link" href="../Projeto-integrador/quem-somos.html">Quem Somos</a>
+               <a class="nav-link" href="../Projeto-integrador/quem-somos.php">Quem Somos</a>
             </div>
             </ul>
           </div>
