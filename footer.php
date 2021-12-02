@@ -22,12 +22,13 @@ echo'
                   </ul>
             </nav>
             <section class="redesfooter">
-                  <p class="predes">Acompanhe mais notícias nas nossas redes sociais</p>
-                  <span class="bi bi-facebook foot-redes"></span>
-                  <span class="bi bi-instagram foot-redes"></span>
-                  <span class="bi bi-twitter foot-redes"></span>
-                  <span class="bi bi-linkedin foot-redes"></span>
-      
+
+            <p class="predes">Acompanhe mais notícias nas nossas redes sociais</p>
+            <span class="bi bi-facebook foot-redes"></span>
+            <span class="bi bi-instagram foot-redes"></span>
+            <span class="bi bi-twitter foot-redes"></span>
+            <span class="bi bi-linkedin foot-redes"></span>
+
             </section>
                   
 
@@ -35,4 +36,3 @@ echo'
 
 </html>
       ';
-?>
