@@ -722,9 +722,7 @@ footer {
     margin-bottom: 5%;
     box-shadow: 0 0 1em #464646;
     font-size: 1.2rem;
-  }
-}
-
+ 
 @media (min-width: 992px) {
   .atcpoli {
     background-color: #fff;
@@ -899,4 +897,38 @@ footer {
 
 .vac {
   text-align: center;
+
 }
+
+ 
+/* organização tela covid */
+
+.bodycovid{
+
+    margin-left: 40px;
+    margin-right: 40px;
+    display: flex;
+}
+
+.nav-covid{    
+    margin-left: 28px;
+    margin-top: 50px;
+    width: 322px;
+    float: left;
+}
+
+.texto-covd {
+    margin-left: 10px;
+    float: right;
+}
+
+.card{
+    margin-left: 10px;
+    margin-right: 10px;  
+}
+
+.imagem-transmicao img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    }
