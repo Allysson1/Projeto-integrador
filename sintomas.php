@@ -32,7 +32,7 @@
                     <h2 class="h2sintomas">Sintomas Comuns</h2>
 
 
-                    <section class="sec01sint">
+                    <div class="sec01sint">
                         <h3 class="text-center h2secsint">Febre</h3>
                         <img class="img-fluid imgsint" src="../Projeto-integrador/images/sintoma1.jpg" alt="">
                         <p class="psint">
@@ -43,169 +43,122 @@
                             o nosso termostato pode fazer a temperatura subir entre dois ou três graus acima do
                             habitual,gerando assim a febre.
                         </p>
-                    </section>
+                    </div>
 
-                    <section class="sec01sint">
+                    <div class="sec01sint">
                         <h3 class="text-center h2secsint">Tosse</h3>
                         <img class="img-fluid imgsint" src="../Projeto-integrador/images/sintoma2.jpg" alt="">
                         <p class="psint">
-                        A tosse é um processo natural do sistema respiratório, que surge a partir de uma irritação. 
-                        Ela pode ser sintoma de muitas doenças, até um câncer de pulmão, 
-                        e também é um sintoma comum da Covid-19.
+                            A tosse é um processo natural do sistema respiratório, que surge a partir de uma irritação.
+                            Ela pode ser sintoma de muitas doenças, até um câncer de pulmão,
+                            e também é um sintoma comum da Covid-19.
                         </p>
-                    </section>
+                    </div>
 
-                    <section class="sec01sint">
+                    <div class="sec01sint">
                         <h3 class="text-center h2secsint">Cansaço</h3>
                         <img class="img-fluid imgsint" src="../Projeto-integrador/images/sintoma3.jpg" alt="">
                         <p class="psint">
-                        O cansaço causado pelo coronavírus é sentido quando é realizado algum tipo de esforço, 
-                        por exemplo o simples fato de andar um pouco mais rápido e sentir uma intensa fadiga, 
-                        acompanhada de falta de ar.
+                            O cansaço causado pelo coronavírus é sentido quando é realizado algum tipo de esforço,
+                            por exemplo o simples fato de andar um pouco mais rápido e sentir uma intensa fadiga,
+                            acompanhada de falta de ar.
                         </p>
-                    </section>
+                    </div>
 
 
-                    <h2>Sintomas Menos Comuns</h2>
+                    <h2 class="h2sintomas">Sintomas Menos Comuns</h2>
 
 
-                    <h3>Dores na Ganganta</h3>
-                    <p>
-                    A dor na garganta é um dos sintomas mais comuns em diversas doenças, 
-                    podendo também aparecer como uma condição do Coronavírus. 
-                    Ela provocada por uma inflamação na faringe, laringe ou amídalas, causando um incomodo. 
+                    <h3 class="h3menos">Dores na Ganganta</h3>
+                    <p class="pmenos">
+                        A dor na garganta é um dos sintomas mais comuns em diversas doenças,
+                        podendo também aparecer como uma condição do Coronavírus.
+                        Ela provocada por uma inflamação na faringe, laringe ou amídalas, causando um incomodo.
                     </p>
 
-                    <h3>Dor de Cabeça</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                        ullamcorper,
-                        augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                        Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                        vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt ex
-                        in
-                        nibh
-                        sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a eros.
-                        Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                        tempor faucibus ipsum.
+                    <h3 class="h3menos">Dor de Cabeça</h3>
+                    <p class="pmenos">
+                        A dor de cabeça podem ocorrer em pessoas de todas as idades, ela também pode estar associada a
+                        diversas doenças,
+                        por exemplo: sinusite, meningite, etc.
+                        Para o novo Coronavírus não é diferente, essa dor é um dos avisos que o vírus está em nosso
+                        organismo.
                     </p>
 
-                    <h3>Dores e Desconfortos</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                        ullamcorper,
-                        augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                        Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                        vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt ex
-                        in
-                        nibh
-                        sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a eros.
-                        Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                        tempor faucibus ipsum.
+                    <h3 class="h3menos">Dores e Desconfortos</h3>
+                    <p class="pmenos">
+                        Quando se está infectado pelo vírus da Covid pode-se aparecer alguns tipos de dores,
+                        como dores musculares. Dores abdominais, e dores de cabeça de intesidade variável.
                     </p>
-                    <h3>Diarreia</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                        ullamcorper,
-                        augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                        Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                        vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt ex
-                        in
-                        nibh
-                        sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a eros.
-                        Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                        tempor faucibus ipsum.
+                    <h3 class="h3menos">Diarreia</h3>
+                    <p class="pmenos"> 
+                        Com a infecção pelo vírus, alguns tipos desaranjos intestinais surgem, como vômitos, nâuseas e
+                        diarréia,
+                        sendo mais comuns entre eles a diarréia.
+                        Como outros tipos de vírus que entram no nosso corpo causam esse sintoma, para a covid não é
+                        diferente.
                     </p>
 
-                    <h3>Irritações na Pele</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                        ullamcorper,
-                        augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                        Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                        vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt ex
-                        in
-                        nibh
-                        sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a eros.
-                        Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                        tempor faucibus ipsum.
+                    <h3 class="h3menos">Irritações na Pele</h3>
+                    <p class="pmenos">
+                        No Sars-Cov-2, sintomas que são causados na pele estão sendo relatados,
+                        por exemplo: irritações na pele e até a descoloração dos dedos das mãos ou dos pês,
+                        Em alguns casos os dedos dos pês ficam avermelhados ou roxos.
                     </p>
 
-                    <h3>Olhos Vermelhos</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                        ullamcorper,
-                        augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                        Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                        vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt ex
-                        in
-                        nibh
-                        sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a eros.
-                        Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                        tempor faucibus ipsum.
+                    <h3 class="h3menos">Olhos Vermelhos</h3>
+                    <p class="pmenos">
+                        Em alguns casos da doença, os infectados informaram terem tido irritações nos olhos ou ardendo,
+                        um tipo de conjutivite,
+                        deixando os olhos bastantes avermelhados e lacrimejando com frequência,
+                        nem todos pacientes relataram esse sintoma, mas sim, pode acontecer.
                     </p>
-
-
-                    <h2>Sintomas Mais Graves</h2>
-
-
-                    <section class="col-sm-12 col-md-12 col-lg-12">
-                        <img class="img-fluid" src="../Projeto-integrador/images/sintoma6.png" alt="">
-                        <h3>Falta de Ar</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                            ullamcorper,
-                            augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                            Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                            vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt
-                            ex in
-                            nibh
-                            sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a
-                            eros.
-                            Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                            tempor faucibus ipsum.
-                        </p>
-                    </section>
-
-                    <section class="col-sm-12 col-md-12 col-lg-12">
-                        <img class="img-fluid" src="../Projeto-integrador/images/sintoma5.png" alt="">
-                        <h3>Perda de Fala, Mobilidade ou Confusão</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                            ullamcorper,
-                            augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                            Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                            vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt
-                            ex in
-                            nibh
-                            sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a
-                            eros.
-                            Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                            tempor faucibus ipsum.
-                        </p>
-                    </section>
-
-                    <section class="col-sm-12 col-md-12 col-lg-12">
-                        <img class="img-fluid" src="../Projeto-integrador/images/sintoma6.png" alt="">
-                        <h3>Dores no Peito</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                            ullamcorper,
-                            augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                            Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                            vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt
-                            ex in
-                            nibh
-                            sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a
-                            eros.
-                            Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                            tempor faucibus ipsum.
-                        </p>
-                    </section>
 
                 </article>
 
-                <aside class="col-sm-12 col-md-12 col-lg-4">
+                <div class="col-sm-12 col-md-12 col-lg-12">
+
+                    <h2 class="h2sintomas">Sintomas Mais Graves</h2>
+
+
+                    <section class="float-sm-start float-md-start float-lg-start col-sm-12 col-md-4 col-lg-4 secgrave ">
+                        <img class="img-fluid" src="../Projeto-integrador/images/sintoma6.png" alt="">
+                        <h3 class="h3menos" >Falta de Ar</h3>
+                        <p class="pmenos">
+                            Um sintoma que quando ocorre deve-se ligar o sinal de alerta, pois a falta de ar é um
+                            sintomas que nos indicam que a infecção causada pelo vírus,
+                            está em estágio mais grave. Pois mesmo que se faça o mínimo de esforço,
+                            já é sentida uma grande dificuldade para respirar, por isso se atente, caso isso ocorra.
+                        </p>
+                    </section>
+
+                    <section class="float-sm-start float-md-start float-lg-start col-sm-12 col-md-4 col-lg-4 secgrave">
+                        <img class="img-fluid" src="../Projeto-integrador/images/sintoma5.png" alt="">
+                        <h3 class="h3menos">Perda de Fala, Mobilidade ou Confusão</h3>
+                        <p class="pmenos">
+                            Sintomas neurológicos, já foram comprovados como causados pelo coronavirus Sars-Cov-2,
+                            por
+                            exemplo: ansiedade, confusão mental e perda de memória.
+                            Casos assim também nos mostram que a doença está em um nível mais alto, ao qual deve-se
+                            procurar assistência médica.
+                        </p>
+                    </section>
+
+                    <section class="float-sm-end float-md-end float-lg-end col-sm-12 col-md-4 col-lg-4 secgrave">
+                        <img class="img-fluid" src="../Projeto-integrador/images/sintoma6.png" alt="">
+                        <h3 class="h3menos">Dores no Peito</h3>
+                        <p class="pmenos">
+                            A dor no peito causado pela doença, está relacionado muitas vezes pela pessoa que está
+                            infectada tossir muito ou respirar
+                            de forma mais profunda, pois existe uma dificuldade para se repirar,
+                            causando assim essa dor sentida no peito, que é contínua e mas não muito intensa.
+                            Mas de qualquer forma é preciso estar atento a essa dor.
+                        </p>
+                    </section>
+
+                </div>
+
+                <aside class="float-lg-end col-sm-12 col-md-12 col-lg-4">
                     <h2> O que fazer se você testou positivo para Covid-19 ?</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
@@ -246,18 +199,6 @@
                         tempor faucibus ipsum.
                     </p>
 
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
-                        ullamcorper,
-                        augue ut bibendum interdum, quam enim scelerisque est, lacinia vehicula orci nisi a enim.
-                        Vivamus egestas nunc nec velit lacinia, ac vehicula ex tristique. Quisque non feugiat ipsum,
-                        vitae bibendum nulla. Pellentesque accumsan ligula at pellentesque aliquam. Nulla tincidunt ex
-                        in
-                        nibh
-                        sagittis, nec dictum elit sollicitudin. Nullam sed tellus in erat congue consectetur non a eros.
-                        Donec finibus eget lectus nec tincidunt. Aenean erat elit, accumsan at turpis varius,
-                        tempor faucibus ipsum.
-                    </p>
 
                     <p><a href="#">Leia Mais...</a></p>
 
