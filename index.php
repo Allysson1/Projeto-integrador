@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
   <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/estilo.css">
-
 </head>
 
 <body class="body-home">
@@ -110,10 +109,10 @@
           <section class="secredes">
 
           <h3 class="h3redes">Redes Sociais:</h3>
-            <span class="bi bi-facebook redes"></span>
-            <span class="bi bi-instagram redes"></span>
-            <span class="bi bi-twitter redes"></span>
-            <span class="bi bi-linkedin redes"></span>
+            <a href="https://www.facebook.com/" class="aref"><span class="bi bi-facebook redes"></span></a>
+            <a href="https://www.instagram.com/accounts/login/" class="aref"><span class="bi bi-instagram redes"></span></a>
+            <a href="https://twitter.com/login?lang=pt" class="aref"><span class="bi bi-twitter redes"></span></a>
+            <a href="https://www.linkedin.com/login/pt" class="aref"><span class="bi bi-linkedin redes"></span></a>
           </section>
 
           <div class="secmais imgaside">

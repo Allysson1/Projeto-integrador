@@ -188,6 +188,11 @@ header {
   overflow-x: hidden;
 }
 
+
+a:hover{
+  color: #a3a3a3;
+}
+
 @media (min-width: 992px) {
   #ul-nav {
     padding-left: 42%;
@@ -224,13 +229,10 @@ footer {
   font-size: 1.5em;
   padding: 25px;
 
+}
 
-  color: #fff;
-  font-size: 1.5em;
-  padding: 25px;
-
-
-
+ .foot-redes:hover{
+  color: #a3a3a3;
 }
 
 #nome-brand {
@@ -251,12 +253,15 @@ footer {
   font-family: "Open Sans", sans-serif;
 }
 
-.lista02 li a {
+.lista02 li .afooter {
   color: white;
   font-weight: bold;
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
 }
+
+
+
 
 .predes {
   color: white;
