@@ -14,6 +14,7 @@ main {
 
   text-align: center;
   padding: 10px;
+
   padding-bottom: 20px;
 
 }
@@ -27,8 +28,7 @@ main {
 }
 
 .redes {
-  height: 85px;
-  width: 85px;
+  font-size: 2em;
   padding: 25px;
 
 }
@@ -722,10 +722,7 @@ footer {
     margin-bottom: 5%;
     box-shadow: 0 0 1em #464646;
     font-size: 1.2rem;
-  }
-}
-
-<<<<<<< HEAD
+ 
 @media (min-width: 992px) {
   .atcpoli {
     background-color: #fff;
@@ -841,21 +838,69 @@ footer {
 
 /* organização da tela de sintomas */
 
-.h1cor {
-  padding: 25px;
-  padding-bottom: 35px;
-  text-align: center;
+.h1cor{
+  padding: 25px 0 25px 0px;
+  font-family: 'Open Sans', sans-serif;
 }
 
+.h2sintomas{
+  background-color: #006fa5;
+  color:#fff;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sec01sint{
+  background-color: #168aad;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.h2secsint{
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+}
+
+.imgsint{
+  padding-left: 8px;
+  float: left;
+}
+
+.psint{
+  font-family: 'Roboto Slab', serif;
+  clear: both;
+  font-weight: bolder;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+.h3menos{
+  padding: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+}
+
+.pmenos{
+  padding: 6px;
+  font-family: 'Roboto Slab', serif;
+  color: #000;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+.secgrave{
+  padding: 0px 5px 0px 5px;
+}
 /* tela vacinas */
 
 .vac {
   text-align: center;
+
 }
-=======
 
-
-  
+ 
 /* organização tela covid */
 
 .bodycovid{
@@ -886,5 +931,4 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
->>>>>>> 2d62ee1c81b3741baf0ec8a66cb1d232916f63b9
+    }
