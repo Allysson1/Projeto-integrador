@@ -159,7 +159,7 @@
                 </div>
 
                 <aside class="float-lg-end col-sm-12 col-md-12 col-lg-4">
-                    <h2> O que fazer se você testou positivo para Covid-19 ?</h2>
+                    <h2 id="oquefazer"> O que fazer se você testou positivo para Covid-19 ?</h2>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vel interdum leo. Maecenas
                         ullamcorper,

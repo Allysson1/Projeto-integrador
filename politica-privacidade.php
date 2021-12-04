@@ -69,17 +69,12 @@
 
         </article>
 
-
-
-
-
-
     </div>
     <footer class="footer">
       <?php include 'footer.php'; ?>
     </footer>
-    <p class="copy"><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
 
+    <script src="../Projeto-integrador/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

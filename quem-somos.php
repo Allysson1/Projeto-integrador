@@ -19,11 +19,11 @@
 
 <body class="body-poli">
 
-    <header>
+    
         <?php include 'header.php'; ?>
-        <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="imagem principal do topo do portal covid">
-    </header>
+    
 
+    <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="imagem principal do topo do portal covid">
 
     <div class=" row justify-content-center">
 
@@ -129,13 +129,11 @@
 
     </div>
 
-
-
-
-
     <footer>
         <?php include 'footer.php'; ?>
     </footer>
+
+    <script src="../Projeto-integrador/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
