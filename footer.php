@@ -15,32 +15,34 @@
 <body>
            
 <?php $page = basename($_SERVER['PHP_SELF']) ?>
-<nav class="navbar navbar-expand-lg">
 
 
 
-<a class="navbar-brand nomebrand" href="../Projeto-integrador/index.php">
-                   <img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top" >
-                        Portal Covid
-                  </a>
+<div class="row col-12">
 
-<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-<div class="navbar-nav">
-<ul class="navbar-nav mr-auto">
+<nav>
 
-<div class="lista01">
+<div class="col-12 col-sm-2 col-md-2 col-lg-1 col-xl-2 m-5 m-sm-5 m-md-5 m-lg-5 float-sm-start float-md-start float-lg-start">
+<a class="navbar-brand nomebrand" href="../Projeto-integrador/index.php"><img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="logo ursinhos felizes" width="30" height="24" class="d-inline-block align-text-top" >Portal Covid</a>
+</div>
+
+
+<div class="lista01 col-12 col-sm-4 col-md-4 col-lg-3 col-xl-3 text-center float-sm-start float-md-start float-lg-start">
+<ul>
 <li class="nav-item">
 <a class="afooter nav-link <?php if($page == "index.php"):echo "disabled"; endif; ?>" href="index.php">Home</a>
 </li>
-<li class="nav-item">
+<li class="nav-item ">
 <a class="afooter nav-link <?php if($page == "sobrevacinas.php"):echo "disabled"; endif; ?>" href="sobrevacinas.php">Vacinas</a>
 </li>
 <li class="nav-item">
 <a class="afooter nav-link <?php if($page == "sintomas.php"):echo "disabled"; endif; ?>" href="sintomas.php">Sintomas</a>
 </li>
+</ul>
 </div>
 
-<div class="lista02">
+<div class="lista02 col-12 col-sm-3 col-md-4 col-lg-3 col-xl-3 text-center float-sm-start float-md-start float-lg-start">
+<ul>
 <li class="nav-item">
 <a class="afooter nav-link <?php if($page == "contato.php"):echo "disabled"; endif; ?>" href="contato.php">Contato</a>
 </li>
@@ -50,31 +52,26 @@
 <li class="nav-item">
 <a class="afooter nav-link <?php if($page == "politica-privacidade.php"):echo "disabled"; endif; ?>" href="politica-privacidade.php">Política de Privacidade</a>
 </li>
-</div>
-
 </ul>
 </div>
-</div>
 
-<section class="redesfooter">
+
+<div class="col-sm-12 col-md-12 col-lg-3 col-xl-3 float-lg-end pt-lg-4">
 
 <p class="predes">Acompanhe mais notícias nas nossas redes sociais</p>
-<a href="https://www.facebook.com/" class="foot-redes"><span class="bi bi-facebook"></span></a>
+<a href="https://www.facebook.com/" class="espaco foot-redes"><span class="bi bi-facebook"></span></a>
 <a href="https://www.instagram.com/accounts/login/" class="foot-redes"><span class="bi bi-instagram"></span></a>
 <a href="https://twitter.com/login?lang=pt" class="foot-redes"><span class="bi bi-twitter"></span></a>
 <a href="https://www.linkedin.com/login/pt" class="foot-redes"><span class="bi bi-linkedin"></span></a>
-
-</section>
-
-
-
+</div>
 </nav>
-                 
+     
+</div>
 
+<p class="copy"><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
 </body>
-
 </html>
-
+</div>
 
 
 
