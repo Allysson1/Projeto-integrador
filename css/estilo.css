@@ -948,10 +948,7 @@ footer {
 /* tablet sintomas */
 
 @media (min-width: 768px){
-  .sec01sint img{
-   align-items: center;
-  }
-
+  
   .sec01sint{
     margin-left: 2px;
     margin-bottom: 10px;
