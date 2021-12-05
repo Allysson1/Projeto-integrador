@@ -211,6 +211,7 @@ header {
   background-color: #168aad;
 }
 
+}
 /* organização do footer */
 
 footer {
@@ -223,14 +224,6 @@ footer {
   color: #fff;
   font-size: 1.5em;
   padding: 25px;
-
-
-  color: #fff;
-  font-size: 1.5em;
-  padding: 25px;
-
-
-
 }
 
 #nome-brand {
@@ -276,7 +269,7 @@ footer {
 
 
 }
-}
+
 
 /* mobile-footer*/
 
@@ -436,38 +429,7 @@ footer {
     margin-top: 3%;
   }
 }
-   
-
-    @media (max-width: 576px) {
-      .redesfooter {
-        text-align: center;
-      }
-
-      .lista01 {
-        text-align: center;
-      }
-
-      .lista02 {
-        text-align: center;
-      }
-
-      .nomebrand {
-        color: #fff;
-        padding-left: 35%;
-        text-align: center;
-      }
-
-      .lista01 a {
-        font-size: 1.2em;
-      }
-
-      .lista02 a {
-        font-size: 1.2em;
-      }
-    }
-
-    
-
+  
     /* organização tela de dados */
 
    /* organização tela de dados */
@@ -722,7 +684,8 @@ footer {
     margin-bottom: 5%;
     box-shadow: 0 0 1em #464646;
     font-size: 1.2rem;
- 
+  }
+}
 @media (min-width: 992px) {
   .atcpoli {
     background-color: #fff;
@@ -749,7 +712,7 @@ footer {
 
 /* qs = quem somos */
 
-.qs {
+.qs{
   clear: both;
 }
 
@@ -855,22 +818,24 @@ footer {
   background-color: #168aad;
   color: #fff;
   border-radius: 6px;
+ 
 }
 
 .h2secsint{
   font-family: 'Open Sans', sans-serif;
   padding: 10px 0px 10px 0px;
   font-weight: bolder;
+  clear: both;
+
 }
 
 .imgsint{
   padding-left: 8px;
-  float: left;
+
 }
 
 .psint{
   font-family: 'Roboto Slab', serif;
-  clear: both;
   font-weight: bolder;
   padding: 10px;
   font-size: 1.1em;
@@ -893,6 +858,152 @@ footer {
 .secgrave{
   padding: 0px 5px 0px 5px;
 }
+
+.secmenos{
+  clear: both;
+  padding-top: 10px;
+}
+
+.h2teste{
+  padding: 15px 0px 15px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+}
+
+.pteste {
+  font-family: 'Roboto Slab', serif;
+  color: #000;
+  font-weight: bolder;
+  font-size: 1.1em;
+  padding: 7px ;
+}
+
+.secperg{
+  background-color: #168aad;
+  border-radius: 6px;
+ 
+}
+
+.h3perg{
+  padding: 15px 0px 15px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.pperg{
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.3em;
+  padding: 5px ;
+}
+
+.pperg2{
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  font-size: 1.1em;
+  padding: 0px 10px 5px 10px ; 
+}
+
+.phref{
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.3em;
+  padding: 0px 10px 5px 10px ; 
+  color:#168aad;
+}
+
+/* mobile sintomas */
+
+@media (max-width: 576px) {
+  .imggrave{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0px 10px 0px;
+  }
+
+  .hrsint{
+    border: #000 1px dotted ;
+  }
+
+}
+    
+
+
+@media (min-width: 576px){
+  .hrsint{
+    border: #000 1px dotted ;
+  }
+  .imggrave{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0px 10px 0px;
+  }
+}
+
+
+
+/* tablet sintomas */
+
+@media (min-width: 768px){
+  .sec01sint img{
+   align-items: center;
+  }
+
+  .sec01sint{
+    margin-left: 2px;
+    margin-bottom: 10px;
+  }
+  .h2sintomas{
+    padding-top: 10px;
+  }
+
+
+  .hrsint{
+    border: #168aad 1px dotted ;
+  }
+} 
+
+/* pc sintomas */
+
+@media (min-width: 992px) {
+
+  .imgsint{
+    padding-bottom: 15px;
+  }
+
+  .sec01sint{
+    padding-bottom: 55px;
+    margin-bottom: 10px;
+  }
+
+  .imggrave{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media (min-width: 1200px){
+    .imgsint{
+      padding-bottom: 15px;
+    }
+
+    .sec01sint{
+      margin-bottom: 15px;
+    }
+
+    .imggrave{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
+
 /* tela vacinas */
 
 .vac {
@@ -931,4 +1042,4 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    }
+  }
