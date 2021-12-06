@@ -26,18 +26,17 @@
           <ul class="nav justify-content-center">
                <li class="nav-item">
               <a class="nav-link pagvac1"
-                href="../Projeto-integrador/sobrevacinas.php">
-                Vacinas</a>
+              href="sobrevacinas.php#vacinaut">
+                Vacina importação</a>
             </li>
             <li class="nav-item">
               <a class="nav-link pagvac1"
-                href="../Projeto-integrador/perguntasvac.php">
-                3 perguntas frequentes sobre as vacinas</a>
+              href="sobrevacinas.php#brasilvac">Brasil pós vacina</a>
             </li>
             <li class="nav-item">
               <a class="nav-link pagvac1"
-                href="../Projeto-integrador/terceiradose.php">Como
-                vai funcionar a 3º dose</a>
+              href="sobrevacinas.php#vacinometro">
+                Vacinômetro</a>
             </li>
             <li class="nav-item pagvac1">
               <a class="nav-link " href="https://www.vacinaja.sp.gov.br/">Vacina já</a>
@@ -133,7 +132,7 @@
         </div>
     </div>
 
-        <h1 class="tituvac">Vacinas com autorização para importação excepcional</h1>
+        <h1 id="vacinaut" class="tituvac">Vacinas com autorização para importação excepcional</h1>
     
     <div class="container">
         <div class="row">
@@ -160,7 +159,7 @@
     </div>
 
     <div class="pagvac">
-      <h2 class="tituvac">Brasil pós vacina</h2>
+      <h2 id="brasilvac" class="tituvac">Brasil pós vacina</h2>
 
       <p class="text">Queda no número de mortes é o principal indício do efeito da vacinação no Brasil, mostrando a
         efetividade no uso das mesmas, porém cientistas ainda alertam que a pandemia ainda não está controlada devido as
@@ -174,6 +173,7 @@
     <div class="container">
     <div class="pagvac">
             <div class="row">
+            <h1 id="vacinometro" class="tituvac"> Vacinometro </h1>
                 <section class=" card quatvac col-sm-8 col-md-6 col-lg-6 " style="width: 30rem;">
                 <h4 class="vact">Vacinas aplicadas em todo o Brasil</h4>
                 <p class="quat">314.158.730</p>
@@ -184,7 +184,7 @@
                 <p class="quat">378.531.734</p>
                 </section>
             </div>
-            <h6 class="vac">Atualizada 05/12/2021 às 21:00hr.</h6>
+            <h6 class="vac">Atualizada 06/12/2021 às 18:00hr.</h6>
         </div>
     </div>
 
