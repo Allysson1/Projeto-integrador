@@ -27,11 +27,6 @@ main {
   
 }
 
-.redes {
-  font-size: 2em;
-  padding: 25px;
-
-}
 
 .h1index {
   font-family: "Open Sans", sans-serif;
@@ -168,7 +163,6 @@ header {
 
 #navbar {
   background-color: #ffd300;
-  /* background-image: url('../images/index.png'); */
 }
 
 .btn-nav {
@@ -218,87 +212,170 @@ footer {
   background-color: #2d2d2d;
   background-size: cover;
 }
-
-.foot-redes {
-
-  color: #fff;
-  font-size: 1.5em;
-  padding: 25px;
+ .foot-redes:hover{
+  color: #a3a3a3;
 }
-
-#nome-brand {
-  color: white;
-}
-
 .copy {
   background-color: #2d2d2d;
   color: white;
   font-weight: bold;
   text-align: center;
 }
-
-.lista01 li a {
+.lista01 a {
   color: white;
   font-weight: bold;
-  text-decoration: none;
   font-family: "Open Sans", sans-serif;
+  list-style: none;
 }
-
-.lista02 li a {
+.lista02 a {
   color: white;
   font-weight: bold;
-  text-decoration: none;
   font-family: "Open Sans", sans-serif;
+  list-style: none;
 }
-
-.predes {
-  color: white;
-  font-weight: bold;
-  padding: 10px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.redesfooter {
-
-  padding-right: 10px;
-  padding-bottom: 15px;
-
-
-  padding-right: 10px;
-  padding-bottom: 15px;
-
-
-}
-
-
+.afooter:hover{
+  color: #a3a3a3;
+  }
+  li{
+    list-style: none;
+  }
+  
 /* mobile-footer*/
-
-@media (max-width: 576px) {
-  .redesfooter {
-    text-align: center;
-
-  }
-
-  .lista01 {
+@media (max-width:576px) {
+  .nomebrand {
+    color: #fff;
+    padding-left: 20%;
     text-align: center;
   }
-
-  .lista02 {
+  
+  .predes { 
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+  }
+  .foot-redes {
+margin-left: 15%;
+    color: #fff;
+    font-size:1.5em;
+  }
+    .espaco{
+      margin-left: 20%;
+    }
+    .lista01 a {
+      font-size: 1em;
+    }
+  
+    .lista02 a {
+      font-size: 1em;
+    }
+  
+}
+@media (min-width:576px){
+  .nomebrand {
+    color: #fff;
+    padding-left: 20%;
     text-align: center;
   }
-
+  
+  .predes { 
+    clear: both;
+    text-align:center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+  }
+  .foot-redes {
+margin-left: 15%;
+    color: #fff;
+    font-size:1.5em;
+  }
+    .espaco{
+      margin-left: 20%;
+    }
+    .lista01 a {
+      font-size: 0.8em;
+    }
+  
+    .lista02 a {
+      font-size: 0.8em;
+    }
+}
+@media (min-width:768px){
   .nomebrand {
     color: #fff;
     padding-left: 35%;
     text-align: center;
   }
-
+  .predes {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+  }
+  .foot-redes {
+margin-left: 10%;
+    color: #fff;
+    font-size:1.5em;
+  }
+    .espaco{
+      margin-left: 30%;
+    }
+  
+  .lista01 a {
+    font-size: 0.9em;
+  }
+  .lista02 a {
+    font-size: 0.9em;
+  }
+  
+ 
+}
+@media (min-width:992px){
+  .predes {
+    text-align:unset;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+  }
+  .foot-redes {
+    margin-left: 0%;
+    color: #fff;
+    font-size:1.4em;
+    padding: 15px;
+  
+  }
+  .lista01 a {
+    font-size: 0.9em;
+  }
+  .lista02 a {
+    font-size: 0.9em;
+  }
+  .espaco{
+    margin-left: 0%;
+  }
+}
+@media (min-width:1200px){
+  .foot-redes {
+    text-align:unset;
+    margin-left: 0%;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 20px;
+  
+  }
   .lista01 a {
     font-size: 1.2em;
   }
-
   .lista02 a {
     font-size: 1.2em;
+  }
+  .espaco{
+    margin-left: 0%;
   }
 }
 

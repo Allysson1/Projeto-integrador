@@ -281,7 +281,6 @@
         <footer class="footer">
             <?php include 'footer.php'; ?>
         </footer>
-        <p class="copy"><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
 
     </div>
 
