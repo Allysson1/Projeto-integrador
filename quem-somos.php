@@ -42,7 +42,7 @@
                 </p>
 
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">Cargo:
-                    Responsável por parte do HTML responsivo e footer</p>
+                    Responsável Responsividade do Site</p>
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">Telas que Fiz:
                 </p>
                 <a href="3-dados.php"
@@ -97,7 +97,7 @@
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">RA: 2650832113028
                 </p>
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">Cargo:
-                    Responsável por parte do HTML responsivo, footer e header</p>
+                    Responsável pela Estrutura do Site</p>
                                
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">Telas que Fiz:
                 </p>
@@ -118,7 +118,7 @@
                 </p>
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">RA: 2650832113014</p>
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">Cargo:
-                    Responsável por parte do HTML responsivo</p>
+                    Responsável pela Análise final do Projeto</p>
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">Telas que Fiz:
                 </p>
                 <a href="sobrevacinas.php"
