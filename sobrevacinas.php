@@ -17,6 +17,38 @@
   <header>
     <?php include 'header.php'; ?>
   </header>
+<<<<<<< HEAD
+=======
+  
+    <nav class="pagvac">
+      <div class="row">
+      <div class="container">
+        <div class="col-md-10">
+          <ul class="nav justify-content-center">
+               <li class="nav-item">
+              <a class="nav-link pagvac1"
+              href="sobrevacinas.php#vacinaut">
+                Vacina importação</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pagvac1"
+              href="sobrevacinas.php#brasilvac">Brasil pós vacina</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link pagvac1"
+              href="sobrevacinas.php#vacinometro">
+                Vacinômetro</a>
+            </li>
+            <li class="nav-item pagvac1">
+              <a class="nav-link " href="https://www.vacinaja.sp.gov.br/">Vacina já</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </div>
+  </div>
+  </nav>
+>>>>>>> 53e907bac20a35c73dca0d139f03cd4e1e24c94f
 
   <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="imagem principal do topo do portal covid">
 
@@ -48,6 +80,7 @@
     <div class="row">
       <article>
 
+<<<<<<< HEAD
         <h1 class="p-5 text-center">Vacinas no Brasil</h1>
         <p class="text-center col-10 col-xl-10 text">Hoje em dia podemos encontrar quatro tipos de vacinas do covid-19 sendo aplicadas na população
           brasileira. Porém muitos ainda possuem dúvidas sobre elas e sobre se deve tomar ou não. Aqui descrevemos um
@@ -101,9 +134,39 @@
                 que dura cerca de 48 horas. </p>
             </div>
           </div>
+=======
+        <h1 id="vacinaut" class="tituvac">Vacinas com autorização para importação excepcional</h1>
+    
+    <div class="container">
+        <div class="row">
+          <section class="card col-sm-8 col-md-6 col-lg-6" style="width: 33rem;">
+            <img class="imgvac" src="../Projeto-integrador/images/sputnik.jpg" alt="ampola de vacina atrás e na frente escrito Sputnik">
+              <h2 class="vac">Vacina Sputnik</h2>
+            <p class="pvac">Fabricada na Rússia pela empresa. Ela usa um adenovírus, porém ao contrário das outras vacinas ela não
+          pode ser utilizada em gestantes, puérperas, lactantes e indivíduos com comorbidades. </p>
+            <p class="pvac">Foi liberada a importação para alguns estados apenas. Dentre eles estão: Bahia, Maranhão, Sergipe,
+          Pernambuco, Pará, entre outros.</p>
+            <p class="pvac">Faixa etária autorizada a receber o imunizante são pessoas com idades: maiores ou igual a de 18 anos e
+          menores de 60 anos.</p>
+          </section>
+
+          <section class="card col-sm-8 col-md-6 col-lg-6" style="width: 33rem;">
+            <img class="imgvac" src="../Projeto-integrador/images/covaxin.jpg" alt="ampola de vacina atrás e na frente escrito Covaxin">
+             <h2 class="vac">Vacina Covaxin (SUSPENSA)</h2>
+            <p class="pvac">Fabricada na Índia, a vacina Covaxin teve seu processo de importação suspenso como uma medida cautelar
+          devido a empresa que a fabricava , empresa Precisa não possuir mais autorização para representar a empresa
+          desenvolvedora na Índia, a empresa Bharat Biotech. </p>
+            <p class="pvac">É fabricada com o vírus inativo.</p>
+          </section>
+>>>>>>> 53e907bac20a35c73dca0d139f03cd4e1e24c94f
         </div>
 
+<<<<<<< HEAD
         <div class="container-fluid">
+=======
+    <div class="pagvac">
+      <h2 id="brasilvac" class="tituvac">Brasil pós vacina</h2>
+>>>>>>> 53e907bac20a35c73dca0d139f03cd4e1e24c94f
 
           <div class="row justify-content-center p-5">
 
@@ -123,6 +186,7 @@
 
               <h3 class="text-center">Reações adversas:</h3>
 
+<<<<<<< HEAD
               <p class="p-4 text-center">As mais comuns relatadas são dor e inchaço no local da injeção, cansaço, dor de cabeça e nas
                 articulações, febre, calafrios e diarreia. Alguns voluntários tiveram sinais de hipersensibilidade, como
                 erupções e coceiras na pele e inchaço nas pequenas glândulas que possuem no sistema linfático.</p>
@@ -139,6 +203,16 @@
 
               <p class="p-4 text-center">Fabricada pela Johnson & Johnson é a única vacina de dose única. Ela usa um adenovírus (vírus tipo que
                 causa resfriado comum) modificado geneticamente para não se multiplicarem, nem causar resfriado. </p>
+=======
+    <div class="container">
+    <div class="pagvac">
+            <div class="row">
+            <h1 id="vacinometro" class="tituvac"> Vacinometro </h1>
+                <section class=" card quatvac col-sm-8 col-md-6 col-lg-6 " style="width: 30rem;">
+                <h4 class="vact">Vacinas aplicadas em todo o Brasil</h4>
+                <p class="quat">314.158.730</p>
+                </section>
+>>>>>>> 53e907bac20a35c73dca0d139f03cd4e1e24c94f
 
               <p class="p-4 text-center">Sua eficácia foi de 66% no início dos estudos, sendo também liberado pela Anvisa, seguindo todos os
                 protocolos exigidos.</p>
@@ -148,6 +222,7 @@
               <p class="p-4 text-center">Foram relatados após dois dias da aplicação cansaço, dor de cabeça, dores musculares, calafrios, febre e
                 náusea, dor e vermelhidão no local da vacina.</p>
             </div>
+<<<<<<< HEAD
 
           </div>
         
@@ -177,6 +252,9 @@
               <p class="p-4 text-center">É fabricada com o vírus inativo.</p>
             </div>
           </div>
+
+            <h6 class="vac">Atualizada 06/12/2021 às 18:00hr.</h6>
+
         </div>
 
 
