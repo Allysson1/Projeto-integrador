@@ -11,7 +11,6 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
   <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/estilo.css">
-
 </head>
 
 <body class="body-home">
@@ -110,10 +109,10 @@
           <section class="secredes">
 
           <h3 class="h3redes">Redes Sociais:</h3>
-            <span class="bi bi-facebook redes"></span>
-            <span class="bi bi-instagram redes"></span>
-            <span class="bi bi-twitter redes"></span>
-            <span class="bi bi-linkedin redes"></span>
+            <a href="https://www.facebook.com/" class="aref"><span class="bi bi-facebook redes"></span></a>
+            <a href="https://www.instagram.com/accounts/login/" class="aref"><span class="bi bi-instagram redes"></span></a>
+            <a href="https://twitter.com/login?lang=pt" class="aref"><span class="bi bi-twitter redes"></span></a>
+            <a href="https://www.linkedin.com/login/pt" class="aref"><span class="bi bi-linkedin redes"></span></a>
           </section>
 
           <div class="secmais imgaside">
@@ -124,15 +123,12 @@
               não podemos negar que muitos avanços tecnologicos vieram por causa da pandemia, clique neste 
               post e leia mais sobre o assunto.
             </p>
-            <img src="#" alt="">
-            <p class="text-center col-sm-8 col-md-8 col-lg-8 pmais">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Magni maiores totam debitis facilis architecto praesentium vero beatae culpa ut.
-              Velit iste nostrum maxime? Itaque ullam illum recusandae! Modi, cumque mollitia!
+            <a href="sintomas.php#oquefazer"><img src="../projeto-integrador/images/mascara.png" alt="representação de mascara de proteção" class="mx-auto d-block col-10 col-md-5 col-lg-8">></a>
+            <p class="text-center col-sm-8 col-md-8 col-lg-8 pmais">Saíba como protteger as pessoas ao seu redor caso tenha alguns  dos sintomas do COVID-19.
             </p>
-            <img src="#" alt="">
-            <p class="text-center col-sm-8 col-md-8 col-lg-8 pmais ">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Magni maiores totam debitis facilis architecto praesentium vero beatae culpa ut.
-              Velit iste nostrum maxime? Itaque ullam illum recusandae! Modi, cumque mollitia!
+            <img src="../projeto-integrador/images/viros.jpeg" alt="imagem representando as moleculas do virus" class="mx-auto d-block col-10 col-md-5 col-lg-8">
+            <p class="text-center col-sm-8 col-md-8 col-lg-8 pmais pb-5">clique na imagem e fique por dentro sobre o que é o SARS-CoV-2, e descubra como ele foi descoberto pelos 
+              cientistas.
             </p>
           </div>
 
@@ -152,7 +148,7 @@
     <footer class="footer">
       <?php include 'footer.php'; ?>
     </footer>
-    <p class="copy"><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
+  
 
   </div>
 

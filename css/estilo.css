@@ -14,6 +14,7 @@ main {
 
   text-align: center;
   padding: 10px;
+
   padding-bottom: 20px;
 
 }
@@ -26,12 +27,6 @@ main {
   
 }
 
-.redes {
-  height: 85px;
-  width: 85px;
-  padding: 25px;
-
-}
 
 .h1index {
   font-family: "Open Sans", sans-serif;
@@ -168,7 +163,6 @@ header {
 
 #navbar {
   background-color: #ffd300;
-  /* background-image: url('../images/index.png'); */
 }
 
 .btn-nav {
@@ -211,101 +205,177 @@ header {
   background-color: #168aad;
 }
 
+}
 /* organização do footer */
 
 footer {
   background-color: #2d2d2d;
   background-size: cover;
 }
-
-.foot-redes {
-
-  color: #fff;
-  font-size: 1.5em;
-  padding: 25px;
-
-
-  color: #fff;
-  font-size: 1.5em;
-  padding: 25px;
-
-
-
+ .foot-redes:hover{
+  color: #a3a3a3;
 }
-
-#nome-brand {
-  color: white;
-}
-
 .copy {
   background-color: #2d2d2d;
   color: white;
   font-weight: bold;
   text-align: center;
 }
-
-.lista01 li a {
+.lista01 a {
   color: white;
   font-weight: bold;
-  text-decoration: none;
   font-family: "Open Sans", sans-serif;
+  list-style: none;
 }
-
-.lista02 li a {
+.lista02 a {
   color: white;
   font-weight: bold;
-  text-decoration: none;
   font-family: "Open Sans", sans-serif;
+  list-style: none;
 }
-
-.predes {
-  color: white;
-  font-weight: bold;
-  padding: 10px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.redesfooter {
-
-  padding-right: 10px;
-  padding-bottom: 15px;
-
-
-  padding-right: 10px;
-  padding-bottom: 15px;
-
-
-}
-}
-
+.afooter:hover{
+  color: #a3a3a3;
+  }
+  li{
+    list-style: none;
+  }
+  
 /* mobile-footer*/
-
-@media (max-width: 576px) {
-  .redesfooter {
-    text-align: center;
-
-  }
-
-  .lista01 {
+@media (max-width:576px) {
+  .nomebrand {
+    color: #fff;
+    padding-left: 20%;
     text-align: center;
   }
-
-  .lista02 {
+  
+  .predes { 
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+  }
+  .foot-redes {
+margin-left: 15%;
+    color: #fff;
+    font-size:1.5em;
+  }
+    .espaco{
+      margin-left: 20%;
+    }
+    .lista01 a {
+      font-size: 1em;
+    }
+  
+    .lista02 a {
+      font-size: 1em;
+    }
+  
+}
+@media (min-width:576px){
+  .nomebrand {
+    color: #fff;
+    padding-left: 20%;
     text-align: center;
   }
-
+  
+  .predes { 
+    clear: both;
+    text-align:center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+  }
+  .foot-redes {
+margin-left: 15%;
+    color: #fff;
+    font-size:1.5em;
+  }
+    .espaco{
+      margin-left: 20%;
+    }
+    .lista01 a {
+      font-size: 0.8em;
+    }
+  
+    .lista02 a {
+      font-size: 0.8em;
+    }
+}
+@media (min-width:768px){
   .nomebrand {
     color: #fff;
     padding-left: 35%;
     text-align: center;
   }
-
+  .predes {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+  }
+  .foot-redes {
+margin-left: 10%;
+    color: #fff;
+    font-size:1.5em;
+  }
+    .espaco{
+      margin-left: 30%;
+    }
+  
+  .lista01 a {
+    font-size: 0.9em;
+  }
+  .lista02 a {
+    font-size: 0.9em;
+  }
+  
+ 
+}
+@media (min-width:992px){
+  .predes {
+    text-align:unset;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+  }
+  .foot-redes {
+    margin-left: 0%;
+    color: #fff;
+    font-size:1.4em;
+    padding: 15px;
+  
+  }
+  .lista01 a {
+    font-size: 0.9em;
+  }
+  .lista02 a {
+    font-size: 0.9em;
+  }
+  .espaco{
+    margin-left: 0%;
+  }
+}
+@media (min-width:1200px){
+  .foot-redes {
+    text-align:unset;
+    margin-left: 0%;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 20px;
+  
+  }
   .lista01 a {
     font-size: 1.2em;
   }
-
   .lista02 a {
     font-size: 1.2em;
+  }
+  .espaco{
+    margin-left: 0%;
   }
 }
 
@@ -436,6 +506,7 @@ footer {
     margin-top: 3%;
   }
 }
+
    
 
     @media (max-width: 576px) {
@@ -467,6 +538,10 @@ footer {
     }
 
     
+
+  
+    /* organização tela de dados */
+
 
    /* organização tela de dados */
 
@@ -748,7 +823,7 @@ footer {
 
 /* qs = quem somos */
 
-.qs {
+.qs{
   clear: both;
 }
 
@@ -837,17 +912,225 @@ footer {
 
 /* organização da tela de sintomas */
 
-.h1cor {
-  padding: 25px;
-  padding-bottom: 35px;
-  text-align: center;
+.h1cor{
+  padding: 25px 0 25px 0px;
+  font-family: 'Open Sans', sans-serif;
 }
+
+.h2sintomas{
+  background-color: #006fa5;
+  color:#fff;
+  border-radius: 6px;
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.sec01sint{
+  background-color: #168aad;
+  color: #fff;
+  border-radius: 6px;
+ 
+}
+
+.h2secsint{
+  font-family: 'Open Sans', sans-serif;
+  padding: 10px 0px 10px 0px;
+  font-weight: bolder;
+  clear: both;
+
+}
+
+.imgsint{
+  padding-left: 8px;
+
+}
+
+.psint{
+  font-family: 'Roboto Slab', serif;
+  font-weight: bolder;
+  padding: 10px;
+  font-size: 1.1em;
+}
+
+.h3menos{
+  padding: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+}
+
+.pmenos{
+  padding: 6px;
+  font-family: 'Roboto Slab', serif;
+  color: #000;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+.secgrave{
+  padding: 0px 5px 0px 5px;
+}
+
+.secmenos{
+  clear: both;
+  padding-top: 10px;
+}
+
+.h2teste{
+  padding: 15px 0px 15px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+}
+
+.pteste {
+  font-family: 'Roboto Slab', serif;
+  color: #000;
+  font-weight: bolder;
+  font-size: 1.1em;
+  padding: 7px ;
+}
+
+.secperg{
+  background-color: #168aad;
+  border-radius: 6px;
+ 
+}
+
+.h3perg{
+  padding: 15px 0px 15px 0px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bolder;
+  color: #fff;
+}
+
+.pperg{
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.3em;
+  padding: 5px ;
+}
+
+.pperg2{
+  font-family: 'Roboto Slab', serif;
+  color: #fff;
+  font-size: 1.1em;
+  padding: 0px 10px 5px 10px ; 
+}
+
+.phref{
+  font-family: 'Roboto Slab', serif;
+  font-size: 1.3em;
+  padding: 0px 10px 5px 10px ; 
+  color:#168aad;
+}
+
+/* mobile sintomas */
+
+@media (max-width: 576px) {
+  .imggrave{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0px 10px 0px;
+  }
+
+  .hrsint{
+    border: #000 1px dotted ;
+  }
+
+}
+    
+
+
+@media (min-width: 576px){
+  .hrsint{
+    border: #000 1px dotted ;
+  }
+  .imggrave{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 0px 10px 0px;
+  }
+}
+
+
+
+/* tablet sintomas */
+
+@media (min-width: 768px){
+  
+  .sec01sint{
+    margin-left: 2px;
+    margin-bottom: 10px;
+  }
+  .h2sintomas{
+    padding-top: 10px;
+  }
+
+
+  .hrsint{
+    border: #168aad 1px dotted ;
+  }
+} 
+
+/* pc sintomas */
+
+@media (min-width: 992px) {
+  .secmenos{
+    display: flex;
+  }
+  .sec2menos{
+    flex-direction: column;
+  }
+
+  .imgsint{
+    padding-bottom: 15px;
+  }
+
+  .sec01sint{
+    padding-bottom: 55px;
+    margin-bottom: 10px;
+  }
+
+  .imggrave{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+
+@media (min-width: 1200px){
+    .secmenos{
+      display: flex;
+    }
+    .sec2menos{
+      flex-direction: column;
+    }
+
+    .imgsint{
+      padding-bottom: 15px;
+    }
+
+    .sec01sint{
+      margin-bottom: 15px;
+    }
+
+    .imggrave{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+}
+
 
 /* tela vacinas */
 
 .vac {
   text-align: center;
-}
+
+  
   
 /* organização tela covid */
 
@@ -1118,9 +1401,9 @@ padding: 100px 100px auto auto;
   font-size: 1.2em;
 }
 
-
-
-
-
-
+.imagem-transmicao img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 

@@ -15,13 +15,15 @@
 </head>
 
 <body class="body-poli">
-
-    <header>
+<div class="row justify-content-center">
+    
+        
         <?php include 'header.php'; ?>
-        <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="imagem principal do topo do portal covid">
-    </header>
 
-    <div class="row justify-content-center">
+        <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="imagem principal do topo do portal covid">
+    
+
+    
 
         <article class="col-sm-12 col-md-10 col-lg-10 col-xl-7 p-5 atc-qs">
             <h1 class="text-center mb-5">Entre de Contato</h1>
@@ -64,9 +66,9 @@
     <footer class="footer">
       <?php include 'footer.php'; ?>
     </footer>
-    <p class="copy"><small>&copy; Copyright - Todos os direitos reservados - Ursinhos Felizes</small></p>
 
 
+    <script src="../Projeto-integrador/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>

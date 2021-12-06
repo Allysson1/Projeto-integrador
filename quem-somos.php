@@ -11,19 +11,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="../projeto-integrador/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../projeto-integrador/css/estilo.css">
+    <link rel="stylesheet" href="../Projeto-integrador/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/estilo.css">
     <script src="/js/bootstrap.min.js"></script>
 </head>
 
 
 <body class="body-poli">
 
-    <header>
+    
         <?php include 'header.php'; ?>
-        <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="imagem principal do topo do portal covid">
-    </header>
+    
 
+    <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="imagem principal do topo do portal covid">
 
     <div class=" row justify-content-center">
 
@@ -42,7 +42,7 @@
                 </p>
 
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">Cargo:
-                    Responsável por parte do HTML responsivo</p>
+                    Responsável por parte do HTML responsivo e footer</p>
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">Telas que Fiz:
                 </p>
                 <a href="3-dados.php"
@@ -87,7 +87,7 @@
             <div class="qs">
                 <img src="images/julio.png" alt="Foto do integrante do grupo"
                     class="col-12 col-sm-8 col-md-4 col-lg-4 col-xl-4 float-md-start float-lg-start float-xl-start img-qs espacamento">
-                <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end espacamento">Júlio
+                <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end espacamento">Julio
                     Gabriel Teixeira dos Santos
                 </p>
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">Aluno da
@@ -97,7 +97,7 @@
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">RA: 2650832113028
                 </p>
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">Cargo:
-                    Responsável por parte do HTML responsivo, footer, header</p>
+                    Responsável por parte do HTML responsivo, footer e header</p>
                                
                 <p class="col-sm-12 col-md-7 col-lg-7 col-xl-7 float-md-end float-lg-end float-xl-end">Telas que Fiz:
                 </p>
@@ -129,13 +129,11 @@
 
     </div>
 
-
-
-
-
     <footer>
         <?php include 'footer.php'; ?>
     </footer>
+
+    <script src="../Projeto-integrador/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
