@@ -340,7 +340,7 @@
             </main>                     
         </div>      
         
-        <footer>
+        <footer class="row">
             <?php include 'footer.php'; ?>
         </footer>       
 

@@ -63,7 +63,7 @@
 
     </div>
 
-    <footer class="footer">
+    <footer class="footer row">
       <?php include 'footer.php'; ?>
     </footer>
 

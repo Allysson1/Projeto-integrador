@@ -249,7 +249,7 @@
       </aside>
     </div>
   </div>
-  <footer>
+  <footer class="row">
     <?php include 'footer.php'; ?>
   </footer>
   <script src="../Projeto-integrador/js/bootstrap.bundle.min.js"></script>
