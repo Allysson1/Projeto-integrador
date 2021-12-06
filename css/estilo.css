@@ -931,11 +931,76 @@ margin-left: 10%;
 
 /* tela vacinas */
 
+.tituvac{
+  padding: 25px 0 25px 0px;
+  text-align: center;
+  font-family: 'Roboto Slab', serif;
+}
+
 .vac {
   text-align: center;
 }
+
+.text {
+  text-align: center;
+  margin: 10px 80px 20px 80px;
+}
+
+.imgvac{
+  text-align: center;
+  margin: 20px;
+}
+
+.imgvac2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.container {
+padding: 10px;
+}
+
+.bodyvac{
+  margin-top: 100px;
+}
+
+.pagvac {
+  width: auto;
+  margin:20px;
+  background-color: #fff;
+}
+.pagvac1:hover {
+  background-color: #ff780a;
+}
+.quat {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+.pvac {
+  margin: 20px;
+}
+
+.pvac1 {
+  margin: 20px;
+  text-align: center;
+}
+
+.quatvac {
+margin: 30px;
+background-color: #6dc3ee;
+}
+
+.vact {
+  text-align: center;  
+}
+
+.leiavac {
+  margin-left: 1000px;
+}
   
-  
+
 /* organização tela covid */
 
 .bodycovid{
