@@ -27,11 +27,6 @@ main {
   
 }
 
-.redes {
-  font-size: 2em;
-  padding: 25px;
-
-}
 
 .h1index {
   font-family: "Open Sans", sans-serif;
@@ -168,7 +163,6 @@ header {
 
 #navbar {
   background-color: #ffd300;
-  /* background-image: url('../images/index.png'); */
 }
 
 .btn-nav {
@@ -218,87 +212,170 @@ footer {
   background-color: #2d2d2d;
   background-size: cover;
 }
-
-.foot-redes {
-
-  color: #fff;
-  font-size: 1.5em;
-  padding: 25px;
+ .foot-redes:hover{
+  color: #a3a3a3;
 }
-
-#nome-brand {
-  color: white;
-}
-
 .copy {
   background-color: #2d2d2d;
   color: white;
   font-weight: bold;
   text-align: center;
 }
-
-.lista01 li a {
+.lista01 a {
   color: white;
   font-weight: bold;
-  text-decoration: none;
   font-family: "Open Sans", sans-serif;
+  list-style: none;
 }
-
-.lista02 li a {
+.lista02 a {
   color: white;
   font-weight: bold;
-  text-decoration: none;
   font-family: "Open Sans", sans-serif;
+  list-style: none;
 }
-
-.predes {
-  color: white;
-  font-weight: bold;
-  padding: 10px;
-  font-family: 'Open Sans', sans-serif;
-}
-
-.redesfooter {
-
-  padding-right: 10px;
-  padding-bottom: 15px;
-
-
-  padding-right: 10px;
-  padding-bottom: 15px;
-
-
-}
-
-
+.afooter:hover{
+  color: #a3a3a3;
+  }
+  li{
+    list-style: none;
+  }
+  
 /* mobile-footer*/
-
-@media (max-width: 576px) {
-  .redesfooter {
-    text-align: center;
-
-  }
-
-  .lista01 {
+@media (max-width:576px) {
+  .nomebrand {
+    color: #fff;
+    padding-left: 20%;
     text-align: center;
   }
-
-  .lista02 {
+  
+  .predes { 
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+  }
+  .foot-redes {
+margin-left: 15%;
+    color: #fff;
+    font-size:1.5em;
+  }
+    .espaco{
+      margin-left: 20%;
+    }
+    .lista01 a {
+      font-size: 1em;
+    }
+  
+    .lista02 a {
+      font-size: 1em;
+    }
+  
+}
+@media (min-width:576px){
+  .nomebrand {
+    color: #fff;
+    padding-left: 20%;
     text-align: center;
   }
-
+  
+  .predes { 
+    clear: both;
+    text-align:center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.7rem;
+  }
+  .foot-redes {
+margin-left: 15%;
+    color: #fff;
+    font-size:1.5em;
+  }
+    .espaco{
+      margin-left: 20%;
+    }
+    .lista01 a {
+      font-size: 0.8em;
+    }
+  
+    .lista02 a {
+      font-size: 0.8em;
+    }
+}
+@media (min-width:768px){
   .nomebrand {
     color: #fff;
     padding-left: 35%;
     text-align: center;
   }
-
+  .predes {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+  }
+  .foot-redes {
+margin-left: 10%;
+    color: #fff;
+    font-size:1.5em;
+  }
+    .espaco{
+      margin-left: 30%;
+    }
+  
+  .lista01 a {
+    font-size: 0.9em;
+  }
+  .lista02 a {
+    font-size: 0.9em;
+  }
+  
+ 
+}
+@media (min-width:992px){
+  .predes {
+    text-align:unset;
+    color: white;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+  }
+  .foot-redes {
+    margin-left: 0%;
+    color: #fff;
+    font-size:1.4em;
+    padding: 15px;
+  
+  }
+  .lista01 a {
+    font-size: 0.9em;
+  }
+  .lista02 a {
+    font-size: 0.9em;
+  }
+  .espaco{
+    margin-left: 0%;
+  }
+}
+@media (min-width:1200px){
+  .foot-redes {
+    text-align:unset;
+    margin-left: 0%;
+    color: #fff;
+    font-size: 1.5em;
+    padding: 20px;
+  
+  }
   .lista01 a {
     font-size: 1.2em;
   }
-
   .lista02 a {
     font-size: 1.2em;
+  }
+  .espaco{
+    margin-left: 0%;
   }
 }
 
@@ -429,15 +506,48 @@ footer {
     margin-top: 3%;
   }
 }
+
+   
+
+    @media (max-width: 576px) {
+      .redesfooter {
+        text-align: center;
+      }
+
+      .lista01 {
+        text-align: center;
+      }
+
+      .lista02 {
+        text-align: center;
+      }
+
+      .nomebrand {
+        color: #fff;
+        padding-left: 35%;
+        text-align: center;
+      }
+
+      .lista01 a {
+        font-size: 1.2em;
+      }
+
+      .lista02 a {
+        font-size: 1.2em;
+      }
+    }
+
+    
+
   
     /* organização tela de dados */
+
 
    /* organização tela de dados */
 
 .body-dados {
   overflow-x: hidden;
-  font-size: 0.8rem;
-  
+ 
 }
 
 .anavdados {
@@ -686,6 +796,7 @@ footer {
     font-size: 1.2rem;
   }
 }
+
 @media (min-width: 992px) {
   .atcpoli {
     background-color: #fff;
@@ -1016,36 +1127,343 @@ footer {
 
 /* tela vacinas */
 
-.vac {
+.tituvac{
+  padding: 25px 0 25px 0px;
   text-align: center;
-
+  font-family: 'Roboto Slab', serif;
 }
 
- 
+.vac {
+  text-align: center;
+}
+
+.text {
+  text-align: center;
+  margin: 10px 80px 20px 80px;
+}
+
+.imgvac{
+  text-align: center;
+  margin: 20px;
+}
+
+.imgvac2 {
+  text-align: center;
+  margin: 20px;
+}
+
+.container {
+padding: 10px;
+}
+
+.bodyvac{
+  background-image: url("../images/plano\ de\ fundo.PNG");
+  margin-top: 100px;
+}
+
+.pagvac {
+  width: auto;
+  margin:20px;
+  background-color: #fff;
+}
+.pagvac1:hover {
+  background-color: #ff780a;
+}
+.quat {
+  text-align: center;
+  font-size: 2rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+.pvac {
+  margin: 20px;
+}
+
+.pvac1 {
+  margin: 20px;
+  text-align: center;
+}
+
+.quatvac {
+margin: 30px;
+background-color: #6dc3ee;
+}
+
+.vact {
+  text-align: center;  
+}
+
+.leiavac {
+  margin-left: 1000px;
+}
+  
 /* organização tela covid */
 
 .bodycovid{
-
-    margin-left: 40px;
-    margin-right: 40px;
-    display: flex;
+    margin-left: 5px;
+    margin-right: 5px; 
 }
-
-.nav-covid{    
+.nav2-covid{    
     margin-left: 28px;
-    margin-top: 50px;
-    width: 322px;
-    float: left;
+    color:#006fa5;
+    font-size: 1.2rem;
+}
+.nav2-covid:hover {
+  color: #0c326f;
 }
 
-.texto-covd {
-    margin-left: 10px;
-    float: right;
+.titulocovid{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #000;
+  margin: 50px auto 70px auto;
 }
+
+.subtitulocovid{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #000;
+  margin: 80px auto 50px auto;
+}
+.subtitulocovid2{
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+  margin: 80px auto 50px auto;
+}
+.subtitulocovid3{
+  color: #fff;
+  text-align: center;
+  margin: 30px auto 30px auto;
+}
+
+.texto-covd{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 50px;
+}
+.texto-covd9{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+.texto-covd8{
+  padding-right: 40px;
+  margin-bottom: 50px;
+}
+.texto-covd1{
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+
+.texto-covd6{
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+
+
+.imagem-transmicao2{
+  justify-content: center;
+
+  margin-right: 0px;
+
+}
+.imagem-transmicao{
+  margin-left: 0px;
+
+}
+
+
+.transm{
+  padding-left: 40px;
+  padding-right: 40px;
+  background:#168aad;
+  color:#fff;
+
+}
+.vari{
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-bottom: 50px;
+  color: #fff;
+  background-color: #168aad;
+}
+
 
 .card{
-    margin-left: 10px;
-    margin-right: 10px;  
+  background-color: #168aad;
+  color: #fff;
+  border-radius: 30px 30px 30px 30px; 
+}
+
+.card-img-top{
+  border-radius: 30px 30px 30px 30px;
+}
+.card2{
+  background-color:#ff780a;
+  color: #fff;
+  border-radius: 30px 30px 30px 30px;
+}
+.card3{
+  background-color:#006600;
+  color: #fff;
+  border-radius: 30px 30px 30px 30px;
+}
+.card4{
+  background-color:#0c326f;
+  color: #fff;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.card-vari{
+  background-color: #168aad;
+}
+
+.nova-vari{
+  background-color: #168aad;
+  color: #fff;
+}
+.card-header{
+  background-color: #c4170c;  
+  margin-left: 10px;
+  margin-right: 10px;  
+}
+.card5{
+  color: #fff;
+padding: 100px 100px auto auto;
+}
+.accordion{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+.accordion-item{
+  background-color: #fff;  
+}
+.accordion-button{
+  background-color:#0c326f;
+  color:#fff;
+}
+
+.collapseOne{
+  color:#fff;
+}
+
+@media (max-width: 576px) {
+  .imagem-transmicao2{
+    justify-content: center;
+    margin-left: 0px;  
+  }
+
+  .accordion{
+    padding-left: 10px;
+    padding-right:10px;
+  }
+  .card{
+    background-color: #168aad;
+    color: #fff;
+    border-radius: 30px 30px 30px 30px; 
+    margin-left: 100px;
+    margin-bottom: 15px;
+  }
+
+  .card2{
+    background-color:#ff780a;
+    color: #fff;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+  }
+  .card3{
+    background-color:#006600;
+    color: #fff;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+  }
+  .card4{
+    background-color:#0c326f;
+    color: #fff;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 100px;
+    margin-bottom: 15px;
+  }
+}
+@media (min-width: 768px) {
+  .imagem-transmicao2{
+    margin-left: -50px;
+  
+  }
+  .imagem-transmicao{
+    margin-left: 120px;  
+  }
+  .card{
+    background-color: #168aad;
+    color: #fff;
+    border-radius: 30px 30px 30px 30px; 
+    margin-left: 50px;
+    margin-bottom: 15px;
+  }
+
+  .card2{
+    background-color:#ff780a;
+    color: #fff;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+  }
+  .card3{
+    background-color:#006600;
+    color: #fff;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+  }
+  .card4{
+    background-color:#0c326f;
+    color: #fff;
+    border-radius: 30px 30px 30px 30px;
+    margin-left: 50px;
+    margin-bottom: 15px;
+  }
+  .card-header{
+    background-color: #c4170c;  
+    margin-left: 0px;
+    margin-right: 0px;  
+  }
+  .card5{
+  color: #fff;
+  padding: auto auto auto auto;
+  }
+  
+
+}
+@media (min-width: 992px) {
+  .imagem-transmicao2{
+    margin-left: 200px;
+  
+  }
+  .imagem-transmicao{
+    margin-left: 0px;  
+  }
+}  
+
+
+.h1 h2 h3 {
+  font-family: "Open Sans", sans-serif; 
+  font-size: 1.8em;
+}
+
+.h4 h5 h6 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.0em;
+} 
+
+.p{  
+  font-family: "Roboto Slab", serif;
+  font-size: 1.2em;
 }
 
 .imagem-transmicao img{
@@ -1053,3 +1471,4 @@ footer {
     margin-left: auto;
     margin-right: auto;
   }
+
