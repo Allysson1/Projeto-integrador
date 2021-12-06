@@ -966,6 +966,12 @@ footer {
 /* pc sintomas */
 
 @media (min-width: 992px) {
+  .secmenos{
+    display: flex;
+  }
+  .sec2menos{
+    flex-direction: column;
+  }
 
   .imgsint{
     padding-bottom: 15px;
@@ -985,6 +991,13 @@ footer {
 
 
 @media (min-width: 1200px){
+    .secmenos{
+      display: flex;
+    }
+    .sec2menos{
+      flex-direction: column;
+    }
+
     .imgsint{
       padding-bottom: 15px;
     }

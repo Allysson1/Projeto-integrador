@@ -15,18 +15,22 @@
 </head>
 
 
-<body class="body-dados pt-lg-3">
-  <header>
-    <?php include 'header.php'; ?>
-    <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="imagem principal do topo do portal covid">
-  </header>
+<body class="body-dados">
 
-  <div class="row">
+<div class="row">
+  
+    <?php include 'header.php'; ?>
+
+    
+    <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="imagem principal do topo do portal covid">
+  
+
+  
     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-8">
       <!--     conteúdo principal-->
 
       <article class="row p-3">
-        <h1 class="text-center espacamento">Corona Virus no Brasil</h1>
+        <h1 class="text-center espacamento h1">Corona Virus no Brasil</h1>
 
         <!--            img gráfica dos dados do corona brasil-->
         <img id="taxa" src="images/dados-covid-1.png" alt="Imagem retratando os dados de mortalidade desde o Início do Conrona Vírus" class="col-sm-8 col-md-8 col-lg-9" />
@@ -248,6 +252,7 @@
   <footer>
     <?php include 'footer.php'; ?>
   </footer>
+  <script src="../Projeto-integrador/js/bootstrap.bundle.min.js"></script>
 </body>
 
 

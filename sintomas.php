@@ -75,9 +75,9 @@
                     
                     <h2 class="h2sintomas">Sintomas Menos Comuns</h2>
 
-                    <div class="d-md-flex flex-md-row  col-sm-12 col-md-12 col-lg-12 secmenos">
+                    <div class="d-md-flex flex-md-row    col-sm-12 col-md-12 col-lg-6 col-xl-6 secmenos">
                         
-                        <section class=" float-lg-start float-xl-start col-sm-12 col-md-4 col-lg-6 col-xl-6 sec2menos">
+                        <section class="  col-sm-12 col-md-4 col-lg-6 col-xl-6 sec2menos">
                             <h3 class="h3menos">Dores na Ganganta</h3>
                             <p class="pmenos">
                                 A dor na garganta é um dos sintomas mais comuns em diversas doenças,
@@ -86,7 +86,7 @@
                             </p>
                         </section>
 
-                        <section class="float-lg-end float-xl-end col-sm-12 col-md-4 col-lg-6 col-xl-6 sec2menos">
+                        <section class="col-sm-12 col-md-4 col-lg-6 col-xl-6 sec2menos">
                             <h3 class="h3menos">Dor de Cabeça</h3>
                             <p class="pmenos">
                                 A dor de cabeça podem ocorrer em pessoas de todas as idades, ela também pode estar
@@ -98,7 +98,7 @@
                             </p>
                         </section>
 
-                        <section class=" float-lg-end col-sm-12 col-md-4 col-lg-6 col-xl-6 sec2menos">
+                        <section class="  col-sm-12 col-md-4 col-lg-6 col-xl-6 sec2menos">
                             <h3 class="h3menos">Diarreia</h3>
                             <p class="pmenos">
                                 Com a infecção pelo vírus, alguns tipos desaranjos intestinais surgem, como vômitos,
@@ -113,8 +113,8 @@
                         </section>
                     </div>
 
-                    <div class="d-md-flex flex-md-row   col-sm-12 col-md-12 col-lg-12 secmenos">
-                        <section class=" float-lg-start float-xl-start  col-sm-12 col-md-4 col-lg-6 col-xl-6 sec2menos">
+                    <div class="d-md-flex flex-md-row   col-sm-12 col-md-12 col-lg-6 col-xl-6 secmenos">
+                        <section class="  col-sm-12 col-md-4 col-lg-6 col-xl-6 sec2menos">
                             <h3 class="h3menos">Dores e Desconfortos</h3>
                             <p class="pmenos">
                                 Quando se está infectado pelo vírus da Covid pode-se aparecer alguns tipos de dores,
@@ -122,7 +122,7 @@
                             </p>
                         </section>
 
-                        <section class=" float-lg-start col-sm-12 col-md-4 col-lg-6 col-xl-6 sec2menos">
+                        <section class="col-sm-12 col-md-4 col-lg-6 col-xl-6 sec2menos">
                             <h3 class="h3menos">Irritações na Pele</h3>
                             <p class="pmenos">
                                 No Sars-Cov-2, sintomas que são causados na pele estão sendo relatados,
@@ -131,7 +131,7 @@
                             </p>
                         </section>
 
-                        <section class=" float-lg-end col-sm-12 col-md-4 col-lg-6 col-xl-6 sec2menos">
+                        <section class="col-sm-12 col-md-4 col-lg-6 col-xl-6 sec2menos">
                             <h3 class="h3menos">Olhos Vermelhos</h3>
                             <p class="pmenos">
                                 Em alguns casos da doença, os infectados informaram terem tido irritações nos olhos ou
@@ -207,6 +207,8 @@
                         </li>
                     </p>
 
+                <aside class="float-lg-end col-sm-12 col-md-12 col-lg-4">
+                    <h2 id="oquefazer"> O que fazer se você testou positivo para Covid-19 ?</h2>
                     <p>
                         <li class="pteste">
                             Caso você se mantenha assintómatico durante o período de isolamento, o recomendado é
