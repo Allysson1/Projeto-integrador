@@ -30,10 +30,10 @@
       <!--     conteúdo principal-->
 
       <article class="row p-3">
-        <h1 class="text-center espacamento h1">Corona Virus no Brasil</h1>
+        <h1 class="text-center p-4 h1index">Corona Virus no Brasil</h1>
 
         <!--            img gráfica dos dados do corona brasil-->
-        <img id="taxa" src="images/dados-covid-1.png" alt="Imagem retratando os dados de mortalidade desde o Início do Conrona Vírus" class="col-sm-8 col-md-8 col-lg-9" />
+        <img id="taxa" src="images/dados-covid-1.png" alt="Imagem retratando os dados de mortalidade desde o Início do Conrona Vírus" class="col-sm-8 col-md-8 col-lg-9 border" />
 
         <nav class="nav-tablet col-sm-4 col-md-3 lh-1">
           <!-- lh-1 = line height -->
@@ -96,7 +96,7 @@
         </p>
 
         <div class="sct-sm">
-          <a href="sobrevacinas.php"><img src="images/seringa2.jpg" alt="imagem representando uma seringa para fazer referencia as vacinas." class="col-6 col-sm-4 imglink-sm" /></a>
+          <a href="sobrevacinas.php"><img src="images/seringa2.jpg" alt="imagem representando uma seringa para fazer referencia as vacinas." class="col-6 col-sm-4 imglink-sm border" /></a>
 
           <p class="text-center col-sm-8 col-md-8 pimglink">
             Acompanhe agora as principais vacinas que estão sendo asplicadas
@@ -226,7 +226,7 @@
 
         <!--indicações de assunto que levam a outra pagina-->
         <div class="imgaside">
-          <a href=""><img src="images/seringa2.jpg" alt="imagem representado uma seringa para fazer referencia a vacina" class="mx-auto d-block col-lg-6" /></a>
+          <a href=""><img src="images/seringa2.jpg" alt="imagem representado uma seringa para fazer referencia a vacina" class="mx-auto d-block col-lg-6 rounded" /></a>
           <a class="anavdados aimglink" href="https://br.pinterest.com/pin/569142471671144799/">Referência: Pinterest</a>
         </div>
         <p class="text-center col-sm-8 col-md-8 col-lg-8 paside">
@@ -236,7 +236,7 @@
         </p>
 
         <div class="imgasides">
-          <a href="sintomas.php"><img src="images/sintomad.jpg" class="mx-auto d-block col-lg-6" alt="imagem represnetando os sintomas doi Covid-19" /></a>
+          <a href="sintomas.php"><img src="images/sintomad.jpg" class="mx-auto d-block col-lg-6 rounded" alt="imagem represnetando os sintomas doi Covid-19" /></a>
 
           <a class="anavdados aimglink" href="https://www.cemigsaude.org.br/site/home">Referência: Cemig Saúde</a>
         </div>

@@ -14,7 +14,6 @@ main {
 
   text-align: center;
   padding: 10px;
-
   padding-bottom: 20px;
 
 }
@@ -22,14 +21,12 @@ main {
 .redes {
   font-size: 2em;
   padding: 25px;
-  text-align: center;
-  padding: 10px;
+  
   
 }
 
 
 .h1index {
-  font-family: "Open Sans", sans-serif;
   text-align: center;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -37,12 +34,10 @@ main {
 }
 
 .h3last {
-  font-family: "Open Sans", sans-serif;
   color: #000;
 }
 
 .h3redes {
-  text-align: center;
   padding-top: 55px;
   font-family: "Open Sans", sans-serif;
   color: #000;
@@ -54,68 +49,55 @@ main {
 }
 
 .h1news {
-  font-family: "Open Sans", sans-serif;
   color: #000;
 }
 
 .pindex {
-  font-size: 1.2em;
-  font-family: "Roboto Slab", serif;
   color: #000;
 }
 
 .btnindex {
   background-color: #168aad;
   color: #fff;
-  font-size: 1.2em;
   border-radius: 10px;
-  font-family: "Roboto Slab", serif;
   text-decoration: none;
 }
 
 .btnindex:hover {
   background-color: #a3a3a3;;
   color: #fff;
-  font-size: 1.2em;
   text-decoration: none;
-  font-family: "Roboto Slab", serif;
 }
 
 .secmais {
   background-color: #168aad;
   color: #fff;
   border-radius: 10px;
-  height: 65%;
+  height: auto;
 }
-
 
 
 .h3mais {
   padding-left: 15px;
   padding-top: 10px;
-  font-family: "Open Sans", sans-serif;
+  
 }
 
 .h3risco {
   text-align: center;
-  font-size: 2.2em;
   padding: 10px;
-  font-family: "Open Sans", sans-serif;
   color: #000;
 }
 
 .prisco {
   padding: 10px;
-  font-size: 1.5em;
   text-align: left;
-  font-family: "Roboto Slab", serif;
   color: #000;
 }
 
 .arefhome{
   text-decoration: none;
   color: #fff;
-font-size: 00.8rem;
 margin-left: 10%;
 }
 
@@ -124,11 +106,11 @@ margin-left: 10%;
 }
 
 .pmais {
-  font-family: "Roboto Slab", serif;
 margin-top: 5%;
 margin-left: 15%;
 
 }
+
 
 /* mobile home */
 @media (max-width: 576px) {
@@ -142,14 +124,12 @@ margin-left: 15%;
   }
 
   .pmais {
-    font-family: "Roboto Slab", serif;
   margin-top: 2.5%;
   margin-bottom: 2.5%;
   margin-left: 0%;
   
   }
-  
-  
+
   }
 
 
@@ -173,31 +153,25 @@ header {
   #ul-nav {
     padding-left: 42%;
   }
-
-
-
 }
+
 
 #img-header {
   overflow-x: hidden;
 }
+
 
 @media (min-width: 992px) {
   #ul-nav {
     padding-left: 42%;
   }
 
-#ul-nav a {
-  font-size: 1.2em;
-  font-family: "Open Sans", sans-serif;
-}
 
 #nav-drop {
   background-color: #006fa5;
 }
 
 #nav-drop a {
-  font-size: 1.2em;
   color: #fff;
 }
 
@@ -206,11 +180,14 @@ header {
 }
 
 }
+
+
 /* organização do footer */
 
 footer {
   background-color: #2d2d2d;
   background-size: cover;
+  clear: both;
 }
  .foot-redes:hover{
   color: #a3a3a3;
@@ -224,13 +201,11 @@ footer {
 .lista01 a {
   color: white;
   font-weight: bold;
-  font-family: "Open Sans", sans-serif;
   list-style: none;
 }
 .lista02 a {
   color: white;
   font-weight: bold;
-  font-family: "Open Sans", sans-serif;
   list-style: none;
 }
 .afooter:hover{
@@ -252,13 +227,10 @@ footer {
     text-align: center;
     color: white;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 0.7rem;
   }
   .foot-redes {
 margin-left: 15%;
     color: #fff;
-    font-size:1.5em;
   }
     .espaco{
       margin-left: 20%;
@@ -284,7 +256,6 @@ margin-left: 15%;
     text-align:center;
     color: white;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
     font-size: 0.7rem;
   }
   .foot-redes {
@@ -313,7 +284,6 @@ margin-left: 15%;
     text-align: center;
     color: white;
     font-weight: bold;
-    font-family: 'Open Sans', sans-serif;
     font-size: 0.8rem;
   }
   .foot-redes {
@@ -379,169 +349,6 @@ margin-left: 10%;
   }
 }
 
-/* organização tela de dados */
-
-.body-dados {
-  overflow-x: hidden;
-  font-size: 0.8rem;
-  
-}
-
-.anavdados {
-  text-decoration: none;
-}
-
-.imglink-dados {
-  margin-top: 5%;
-  margin-left: 5%;
-}
-
-.espacamento {
-  margin-top: 5%;
-}
-
-.paside {
-  margin-top: 5%;
-  margin-left: 17%;
-}
-
-/* mobile-dados*/
-@media (max-width: 576px) {
-  .aref {
-    text-decoration: none;
-    color: #006fa5;
-  }
-
-  .aref:hover {
-    color: #a3a3a3;
-  }
-
-  .anavdados {
-    color: #006fa5;
-  }
-
-  .anavdados:hover {
-    color: #a3a3a3;
-  }
-
-  .asidedados {
-    display: none;
-  }
-
-  .pimg {
-    font-size: 0.6rem;
-    text-decoration: none;
-  }
-
-  .nav-tablet {
-    display: none;
-  }
-
-  .sct-sm {
-    display: block;
-  }
-
-  .imglink-sm {
-    width: 70%;
-    margin-left: 15%;
-  }
-
-  .pimglink {
-    float: right;
-    padding: 10px;
-  }
-
-  .imglink-dados {
-    width: 70%;
-    margin-left: 15%;
-  }
-}
-
-@media (min-width: 576px) {
-  .sct-sm {
-    display: none;
-  }
-
-  .asidedados {
-    display: none;
-  }
-
-  .nav-tablet {
-    display: block;
-    font-size: 0.8rem;
-  }
-
-  .aref {
-    color: #006fa5;
-  }
-
-  .anavdados {
-    color: #006fa5;
-  }
-
-  .aref,
-  .anavdados:hover {
-    color: #a3a3a3;
-  }
-
-  .body-dados {
-    font-size: 1rem;
-  }
-
-  .pimg {
-    font-size: 0.8rem;
-  }
-
-  .sct-sm {
-    display: block;
-  }
-
-  .pimglink {
-    float: right;
-    padding: 10px;
-    margin-top: 5%;
-  }
-
-  .imglink-sm {
-    margin-top: 3%;
-  }
-}
-
-   
-
-    @media (max-width: 576px) {
-      .redesfooter {
-        text-align: center;
-      }
-
-      .lista01 {
-        text-align: center;
-      }
-
-      .lista02 {
-        text-align: center;
-      }
-
-      .nomebrand {
-        color: #fff;
-        padding-left: 35%;
-        text-align: center;
-      }
-
-      .lista01 a {
-        font-size: 1.2em;
-      }
-
-      .lista02 a {
-        font-size: 1.2em;
-      }
-    }
-
-    
-
-  
-    /* organização tela de dados */
-
 
    /* organização tela de dados */
 
@@ -559,10 +366,6 @@ margin-left: 10%;
   margin-left: 5%;
 }
 
-.espacamento {
-  margin-top: 5%;
-}
-
 .paside {
   margin-top: 5%;
   margin-left: 17%;
@@ -602,11 +405,13 @@ margin-left: 10%;
 
   .sct-sm {
     display: block;
+    border-radius: 10px;
   }
 
   .imglink-sm {
     width: 70%;
     margin-left: 15%;
+    border-radius: 10px;
   }
 
   .pimglink {
@@ -617,6 +422,7 @@ margin-left: 10%;
   .imglink-dados {
     width: 70%;
     margin-left: 15%;
+    border-radius: 10px;
   }
 }
 
@@ -657,6 +463,7 @@ margin-left: 10%;
 
   .sct-sm {
     display: block;
+    border-radius: 10px;
   }
 
   .pimglink {
@@ -667,6 +474,7 @@ margin-left: 10%;
 
   .imglink-sm {
     margin-top: 3%;
+    border-radius: 10px;
   }
 }
 
@@ -689,10 +497,12 @@ margin-left: 10%;
   .imglink-dados {
     margin-top: 5%;
     margin-left: 10%;
+    border-radius: 10px;
   }
 
   .sct-sm {
     display: block;
+    border-radius: 10px;
   }
 }
 
@@ -707,6 +517,7 @@ margin-left: 10%;
     display: block;
     background-color: #006fa5;
     height: 100%;
+    border-radius: 10px;
   }
 
   .nav-tablet {
@@ -716,6 +527,7 @@ margin-left: 10%;
   .imglink-dados {
     margin-top: 5%;
     margin-left: 5%;
+    border-radius: 10px;
   }
 
   .sct-sm {
@@ -770,7 +582,7 @@ margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
     box-shadow: 0 0 1em #464646;
-    font-size: 0.8rem;
+    
   }
 }
 
@@ -781,7 +593,7 @@ margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
     box-shadow: 0 0 1em #464646;
-    font-size: 0.8rem;
+    
   }
 }
 
@@ -793,7 +605,7 @@ margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
     box-shadow: 0 0 1em #464646;
-    font-size: 1.2rem;
+    
   }
 }
 
@@ -819,8 +631,9 @@ margin-left: 10%;
   }
 }
 
-/* organização tela quem somos */
 
+
+/* organização tela quem somos */
 /* qs = quem somos */
 
 .qs{
@@ -849,7 +662,7 @@ margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
     box-shadow: 0 0 1em #464646;
-    font-size: 0.8rem;
+    
   }
 }
 
@@ -860,7 +673,7 @@ margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
     box-shadow: 0 0 1em #464646;
-    font-size: 0.8rem;
+    
   }
 
   .img-qs {
@@ -875,7 +688,7 @@ margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
     box-shadow: 0 0 1em #464646;
-    font-size: 0.8rem;
+    
   }
   .img-qs {
     margin-left: 0%;
@@ -889,7 +702,7 @@ margin-left: 10%;
     margin-top: 5%;
     margin-bottom: 5%;
     box-shadow: 0 0 1em #464646;
-    font-size: 1rem;
+    
   }
   .img-qs {
     margin-left: 0%;
@@ -903,7 +716,7 @@ margin-left: 10%;
     margin-top: 5%;
     box-shadow: 0 0 1em #464646;
     margin-bottom: 5%;
-    font-size: 1.2rem;
+  
   }
   .img-qs {
     margin-left: 0%;
@@ -914,7 +727,7 @@ margin-left: 10%;
 
 .h1cor{
   padding: 25px 0 25px 0px;
-  font-family: 'Open Sans', sans-serif;
+ 
 }
 
 .h2sintomas{
@@ -922,7 +735,7 @@ margin-left: 10%;
   color:#fff;
   border-radius: 6px;
   padding: 10px;
-  font-family: 'Open Sans', sans-serif;
+  
 }
 
 .sec01sint{
@@ -933,7 +746,6 @@ margin-left: 10%;
 }
 
 .h2secsint{
-  font-family: 'Open Sans', sans-serif;
   padding: 10px 0px 10px 0px;
   font-weight: bolder;
   clear: both;
@@ -946,7 +758,7 @@ margin-left: 10%;
 }
 
 .psint{
-  font-family: 'Roboto Slab', serif;
+
   font-weight: bolder;
   padding: 10px;
   font-size: 1.1em;
@@ -954,13 +766,11 @@ margin-left: 10%;
 
 .h3menos{
   padding: 5px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: bolder;
 }
 
 .pmenos{
   padding: 6px;
-  font-family: 'Roboto Slab', serif;
   color: #000;
   font-weight: bolder;
   font-size: 1.1em;
@@ -977,12 +787,10 @@ margin-left: 10%;
 
 .h2teste{
   padding: 15px 0px 15px 0px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: bolder;
 }
 
 .pteste {
-  font-family: 'Roboto Slab', serif;
   color: #000;
   font-weight: bolder;
   font-size: 1.1em;
@@ -997,13 +805,11 @@ margin-left: 10%;
 
 .h3perg{
   padding: 15px 0px 15px 0px;
-  font-family: 'Open Sans', sans-serif;
   font-weight: bolder;
   color: #fff;
 }
 
 .pperg{
-  font-family: 'Roboto Slab', serif;
   color: #fff;
   font-weight: bolder;
   font-size: 1.3em;
@@ -1011,14 +817,12 @@ margin-left: 10%;
 }
 
 .pperg2{
-  font-family: 'Roboto Slab', serif;
   color: #fff;
   font-size: 1.1em;
   padding: 0px 10px 5px 10px ; 
 }
 
 .phref{
-  font-family: 'Roboto Slab', serif;
   font-size: 1.3em;
   padding: 0px 10px 5px 10px ; 
   color:#168aad;
@@ -1129,7 +933,7 @@ margin-left: 10%;
 
 .vac {
   text-align: center;
-
+}
   
   
 /* organização tela covid */
@@ -1147,21 +951,18 @@ margin-left: 10%;
   color: #0c326f;
 }
 
-.titulocovid{
-  font-family: 'Open Sans', sans-serif;
+.titulocovid{ 
   text-align: center;
   color: #000;
   margin: 50px auto 70px auto;
 }
 
 .subtitulocovid{
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: #000;
   margin: 80px auto 50px auto;
 }
 .subtitulocovid2{
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
   color: #fff;
   margin: 80px auto 50px auto;
@@ -1385,25 +1186,101 @@ padding: 100px 100px auto auto;
   }
 }  
 
-
-.h1 h2 h3 {
-  font-family: "Open Sans", sans-serif; 
-  font-size: 1.8em;
-}
-
-.h4 h5 h6 {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1.0em;
-} 
-
-.p{  
-  font-family: "Roboto Slab", serif;
-  font-size: 1.2em;
-}
-
 .imagem-transmicao img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+@media (max-width:576px){
+  h1, h2, h3 {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 1em;
+  }
+  
+  h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.7em;
+  } 
+  
+  p, a {  
+    font-family: "Roboto Slab", serif;
+    font-size: 0.8em;
+  }
+  }
+
+
+@media (min-width:576px){
+  h1, h2, h3 {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 1.2em;
+  }
+  
+  h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.8em;
+  } 
+  
+  p, a {  
+    font-family: "Roboto Slab", serif;
+    font-size: 0.9em;
+  }
+  }
+
+
+@media (min-width:768px){
+  h1, h2, h3 {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 1.4em;
+  }
+  
+  h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 0.9em;
+  } 
+  
+  p, a {  
+    font-family: "Roboto Slab", serif;
+    font-size: 1em;
+  }
+  }
+
+
+@media (min-width:992px){
+  h1, h2, h3 {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 1.8em;
+  }
+  
+  h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.0em;
+  } 
+  
+  p, a {  
+    font-family: "Roboto Slab", serif;
+    font-size: 1.2em;
+  }
+  }
+
+
+@media (min-width:1200px){
+
+
+  h1, h2, h3 {
+    font-family: "Open Sans", sans-serif; 
+    font-size: 1.8em;
+  }
+  
+  h4, h5, h6 {
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.0em;
+  } 
+  
+  p, a {  
+    font-family: "Roboto Slab", serif;
+    font-size: 1.2em;
+  }
   }
 
