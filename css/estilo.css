@@ -141,6 +141,18 @@ header {
   width: 100%;
 }
 
+.nav-home{
+  color: #006fa5;
+  font-weight: bold;
+}
+
+.nav-home:hover{
+  color:#fff;
+  
+}
+
+
+
 #navbar {
   background-color: #ffd300;
 }
@@ -219,8 +231,9 @@ footer {
 @media (max-width:576px) {
   .nomebrand {
     color: #fff;
-    padding-left: 20%;
+    padding-left: 25%;
     text-align: center;
+    
   }
   
   .predes { 
@@ -330,6 +343,9 @@ margin-left: 10%;
   }
 }
 @media (min-width:1200px){
+ 
+
+
   .foot-redes {
     text-align:unset;
     margin-left: 0%;
