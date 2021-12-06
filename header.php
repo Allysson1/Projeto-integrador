@@ -1,6 +1,16 @@
 
 <!DOCTYPE html>
 <html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto+Slab:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="../Projeto-integrador/css/estilo.css">
+</head>
 <body>
 
 <?php $page = basename($_SERVER['PHP_SELF']) ?>
@@ -8,9 +18,11 @@
 
       <nav class="navbar fixed-top navbar-expand-lg navbar-warning bg-warning" id="navbar">
           <div class="container-fluid">
-              <a class="navbar-brand" href="../Projeto-integrador/index.php">
-                 <img src="../projeto-integrador/images/logo2.png" alt="logo ursinhos felizes" class="d-inline-block align-text-top"> </a>
-               <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+             
+          <a class="navbar-brand" href="../Projeto-integrador/index.php">
+                 <img src="../projeto-integrador/images/logo2.png" alt="logo ursinhos felizes" class="logo d-inline-block align-text-top"> </a>
+              
+                 <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
 
                <span class="bi bi-list text-right btn-nav"></span>
 

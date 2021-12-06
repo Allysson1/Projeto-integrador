@@ -161,9 +161,64 @@ header {
   font-size: 1.7em;
 }
 
+
+@media(max-width: 576px) {
+  .logo{
+    width: 60px;
+  }
+
+  .imgprincipal{
+    margin-top: 10%;
+  }
+}
+
+@media(min-width:576px){
+  .logo{
+    width: 80px;
+  }
+
+  .nav-home{
+    font-size: 1rem;
+  }
+
+  .imgprincipal{
+    margin-top: 5%;
+  }
+}
+
+
+@media(min-width:768px){
+  .logo{
+    width: 120px;
+  }
+
+  .nav-home{
+    font-size: 1rem;
+  }
+
+  .imgprincipal{
+    margin-top: 5%;
+  }
+}
+
+  
+
 @media(min-width: 992px) {
+  .logo{
+    width: 150px;
+  }
+
+
   #ul-nav {
     padding-left: 42%;
+  }
+
+  .nav-home{
+    font-size: 1.2rem;
+  }
+
+  .imgprincipal{
+    margin-top: 0%;
   }
 }
 
@@ -171,12 +226,6 @@ header {
 #img-header {
   overflow-x: hidden;
 }
-
-
-@media (min-width: 992px) {
-  #ul-nav {
-    padding-left: 42%;
-  }
 
 
 #nav-drop {
@@ -189,8 +238,6 @@ header {
 
 #nav-drop a:hover {
   background-color: #168aad;
-}
-
 }
 
 
