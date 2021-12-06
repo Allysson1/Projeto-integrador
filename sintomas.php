@@ -28,6 +28,20 @@
 
                     <h1 class="h1cor text-center">Coronavírus</h1>
 
+                    <nav class="nav-tablet col-sm-4 col-md-3 lh-1">
+
+                        <ul class="nav nav-fill">
+                            <li><a class="nav-link anavdados" href="">Sintomas Menos Comuns</a></li>
+                            <li><a class="nav-link anavdados" href=""></a></li>
+                            <li><a class="nav-link anavdados" href=""></a></li>
+                            <li>
+                                <a class="nav-link anavdados" href=""></a>
+                            </li>
+                            <li>
+                                <a class="nav-link anavdados" href=""></a>
+                            </li>
+                        </ul>
+                    </nav>
 
                     <h2 class="h2sintomas">Sintomas Comuns</h2>
 
@@ -37,7 +51,7 @@
 
                             <h3 class="text-center h2secsint">Febre</h3>
 
-                            <img class="img-fluid imgsint" src="../Projeto-integrador/images/sintoma1.jpg" alt="">
+                            <img class="img-fluid imgsint" src="../Projeto-integrador/images/sintoma1.jpg" alt="Imagem vetorial, retratando uma pessoa com febre">
 
                             <p class="float-lg-end float-xl-end col-lg-8 col-xl-8 psint">
                                 A nossa temperatura corporal se mantém estável, pois tem uma área do nosso cérebro que
@@ -52,7 +66,7 @@
 
                         <section class="float-md-start col-sm-12  col-lg-12 col-xl-12  sec01sint">
                             <h3 class="text-center h2secsint">Tosse</h3>
-                            <img class="img-fluid imgsint" src="../Projeto-integrador/images/sintoma2.jpg" alt="">
+                            <img class="img-fluid imgsint" src="../Projeto-integrador/images/sintoma2.jpg" alt="Imagem vetorial, retratando uma pessoa ao tossir">
                             <p class="float-lg-end float-xl-end col-lg-8 col-xl-8 psint">
                                 A tosse é um processo natural do sistema respiratório, que surge a partir de uma
                                 irritação.
@@ -63,7 +77,7 @@
 
                         <section class="float-md-end col-sm-12  col-lg-12 col-xl-12  sec01sint">
                             <h3 class="text-center h2secsint">Cansaço</h3>
-                            <img class="img-fluid imgsint" src="../Projeto-integrador/images/sintoma3.jpg" alt="">
+                            <img class="img-fluid imgsint" src="../Projeto-integrador/images/sintoma3.jpg" alt="Imagem vetorial, retratando uma pessoa que está muito cansada">
                             <p class="float-lg-end float-xl-end col-lg-8 col-xl-8 psint">
                                 O cansaço causado pelo coronavírus é sentido quando é realizado algum tipo de esforço,
                                 por exemplo o simples fato de andar um pouco mais rápido e sentir uma intensa fadiga,
@@ -72,11 +86,11 @@
                         </section>
                     </div>
 
-                    
+
                     <h2 class="h2sintomas">Sintomas Menos Comuns</h2>
 
                     <div class="d-md-flex flex-md-row    col-sm-12 col-md-12 col-lg-6 col-xl-6 secmenos">
-                        
+
                         <section class="  col-sm-12 col-md-4 col-lg-6 col-xl-6 sec2menos">
                             <h3 class="h3menos">Dores na Ganganta</h3>
                             <p class="pmenos">
@@ -155,7 +169,7 @@
 
                     <section
                         class="float-sm-start float-md-start float-lg-start col-sm-12 col-md-4 col-lg-4 col-xl-4 secgrave ">
-                        <img class="img-fluid imggrave" src="../Projeto-integrador/images/sintoma05.png" alt="">
+                        <img class="img-fluid imggrave" src="../Projeto-integrador/images/sintoma05.png" alt="Imagem vetorial, retratando uma pesssoa com falta por estar doente">
                         <h3 class="h3menos">Falta de Ar</h3>
                         <p class="pmenos">
                             Um sintoma que quando ocorre deve-se ligar o sinal de alerta, pois a falta de ar é um
@@ -167,7 +181,7 @@
 
                     <section
                         class="float-sm-start float-md-start float-lg-start col-sm-12 col-md-4 col-lg-4 col-xl-4 secgrave">
-                        <img class="img-fluid imggrave" src="../Projeto-integrador/images/sintoma04.png" alt="">
+                        <img class="img-fluid imggrave" src="../Projeto-integrador/images/sintoma06.png" alt="Imagem vetorial, retratando uma pessoa confusa, tonta com estrelas na cabeça">
                         <h3 class="h3menos">Perda de Fala, Mobilidade ou Confusão</h3>
                         <p class="pmenos">
                             Sintomas neurológicos, já foram comprovados como causados pelo coronavirus Sars-Cov-2,
@@ -180,7 +194,7 @@
 
                     <section
                         class="float-sm-end float-md-end float-lg-end col-sm-12 col-md-4 col-lg-4 col-xl-4 secgrave">
-                        <img class="img-fluid imggrave" src="../Projeto-integrador/images/sintoma06.png" alt="">
+                        <img class="img-fluid imggrave" src="../Projeto-integrador/images/sintoma04.png" alt="Imagem vetorial, retratando uma pessoa com uma dor no peito, levando as mãos ao peito">
                         <h3 class="h3menos">Dores no Peito</h3>
                         <p class="pmenos">
                             A dor no peito causado pela doença, está relacionado muitas vezes pela pessoa que está
@@ -207,8 +221,6 @@
                         </li>
                     </p>
 
-                <aside class="float-lg-end col-sm-12 col-md-12 col-lg-4">
-                    <h2 id="oquefazer"> O que fazer se você testou positivo para Covid-19 ?</h2>
                     <p>
                         <li class="pteste">
                             Caso você se mantenha assintómatico durante o período de isolamento, o recomendado é

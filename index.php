@@ -31,7 +31,7 @@
 
           <div class="secnews float-md-start float-lg-start float-xl-start col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
             
-          <img src="../projeto-integrador/images/sintomad.jpg" alt="imagem com termometro com o intuito de se referir aos sintomas do covid " class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+          <img src="../Projeto-integrador/images/sintomad.jpg" alt="imagem com termometro com o intuito de se referir aos sintomas do covid " class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
             
           <a class="aref col-xl-11" href="https://www.cemigsaude.org.br/site/home">Referência: Cemig Saúde</a>
             
@@ -49,7 +49,7 @@
 
           <div class="secnews float-md-end float-lg-end float-xl-end col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
            
-          <img src="../projeto-integrador/images/dados-covid-19.jpg" alt="imagem representando um grafico  com o intuido de se referir sobre o que é Covid-19" class="border col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+          <img src="../Projeto-integrador/images/dados-covid-19.jpg" alt="imagem representando um grafico  com o intuido de se referir sobre o que é Covid-19" class="border col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
            
           <a class="aref" href="https://www.techtudo.com.br/listas/2020/03/mapa-do-coronavirus-no-mundo-sites-mostram-casos-confirmados-em-tempo-real.ghtmlhttps://www.techtudo.com.br/listas/2020/03/mapa-do-coronavirus-no-mundo-sites-mostram-casos-confirmados-em-tempo-real.ghtml">Referência: Tech Tudo</a>
            
@@ -67,7 +67,7 @@
          
           <div class="secnews float-md-start float-lg-start float-xl-start col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
            
-          <img src="../projeto-integrador/images/grafico.png" alt="imagem representando um grafico  com o intuido de se referir as vacinas do Covid-19 " class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+          <img src="../Projeto-integrador/images/grafico.png" alt="imagem representando um grafico  com o intuido de se referir as vacinas do Covid-19 " class="col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
            
           <a class="aref col-xl-11" href="https://blog.even3.com.br/graficos-de-pesquisa/">Referência: Blog.even3</a>
             
@@ -87,7 +87,7 @@
           
           <div class="secnews float-md-end float-lg-end float-xl-end col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
            
-          <img src="../projeto-integrador/images/compleementar1.png" alt="imagem representando um grafico  com o intuido de se referir aos dados do Covid-19" class="border col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
+          <img src="../Projeto-integrador/images/compleementar1.png" alt="imagem representando um grafico  com o intuido de se referir aos dados do Covid-19" class="border col-11 col-sm-11 col-md-11 col-lg-11 col-xl-11">
            
           <a class="arefhome" href="https://blog.even3.com.br/graficos-de-pesquisa/">Referência: Blog.even3</a>
            
@@ -117,16 +117,16 @@
 
           <div class="secmais imgaside">
             <h3 class="h3mais">Mais Lidas</h3>
-            <a href="dados.php#evolucao"><img src="../projeto-integrador/images/inovação.png" alt="imagem quee representa as inovações conquistadas na pandemia" class="mx-auto d-block col-lg-8"></a>
+            <a href="dados.php#evolucao"><img src="../Projeto-integrador/images/inovação.png" alt="imagem quee representa as inovações conquistadas na pandemia" class="mx-auto d-block col-lg-8"></a>
             <a class="arefhome" href="https://blog.aevo.com.br/como-aplicar-gestao-da-inovacao-em-grandes-empresas/">Referência: Blog AEVO</a>
             <p class="text-center col-sm-8 col-md-8 col-lg-8 pmais">Mesmo a pandemia trazendo muita tristesa e sofrimento para o mundo,
               não podemos negar que muitos avanços tecnologicos vieram por causa da pandemia, clique neste 
               post e leia mais sobre o assunto.
             </p>
-            <a href="sintomas.php#oquefazer"><img src="../projeto-integrador/images/mascara.png" alt="representação de mascara de proteção" class="mx-auto d-block col-10 col-md-5 col-lg-8">></a>
+            <a href="sintomas.php#oquefazer"><img src="../Projeto-integrador/images/mascara.png" alt="representação de mascara de proteção" class="mx-auto d-block col-10 col-md-5 col-lg-8">></a>
             <p class="text-center col-sm-8 col-md-8 col-lg-8 pmais">Saíba como protteger as pessoas ao seu redor caso tenha alguns  dos sintomas do COVID-19.
             </p>
-            <img src="../projeto-integrador/images/viros.jpeg" alt="imagem representando as moleculas do virus" class="mx-auto d-block col-10 col-md-5 col-lg-8">
+            <img src="../Projeto-integrador/images/viros.jpeg" alt="imagem representando as moleculas do virus" class="mx-auto d-block col-10 col-md-5 col-lg-8">
             <p class="text-center col-sm-8 col-md-8 col-lg-8 pmais pb-5">clique na imagem e fique por dentro sobre o que é o SARS-CoV-2, e descubra como ele foi descoberto pelos 
               cientistas.
             </p>
