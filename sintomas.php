@@ -23,7 +23,6 @@
 
 
         <main>
-            <img src="../Projeto-integrador/images/index.png" class="img-fluid imgprincipal" id="img-header" alt="">
             <div class="row">
 
 
