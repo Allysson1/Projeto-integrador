@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-<title>Portal Covid</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -23,7 +22,7 @@
 <nav>
 
 <div class="col-12 col-sm-2 col-md-2 col-lg-1 col-xl-2 m-5 m-sm-5 m-md-5 m-lg-5 float-sm-start float-md-start float-lg-start">
-<a class="navbar-brand nomebrand" href="../Projeto-integrador/index.php"><img src="https://getbootstrap.com/docs/5.1/assets/brand/bootstrap-logo.svg" alt="logo ursinhos felizes" width="30" height="24" class="d-inline-block align-text-top" >Portal Covid</a>
+<a class="navbar-brand nomebrand" href="../Projeto-integrador/index.php"><img src="../projeto-integrador/images/logo2.png" alt="logo ursinhos felizes" class="d-inline-block align-text-top" ></a>
 </div>
 
 

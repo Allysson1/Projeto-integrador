@@ -20,7 +20,7 @@
         
         <?php include 'header.php'; ?>
 
-        <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="imagem principal do topo do portal covid">
+        <img src="../Projeto-integrador/images/index.png" class="img-fluid imgprincipal" id="img-header" alt="imagem principal do topo do portal covid">
     
 
     
@@ -63,7 +63,7 @@
 
     </div>
 
-    <footer class="footer">
+    <footer class="footer row">
       <?php include 'footer.php'; ?>
     </footer>
 

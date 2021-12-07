@@ -22,6 +22,11 @@
         <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
 
 
+        <main>
+            <img src="../Projeto-integrador/images/index.png" class="img-fluid imgprincipal" id="img-header" alt="">
+            <div class="row">
+
+
        
             <div class="row">
             <img src="../Projeto-integrador/images/sintomas.png" class="img-fluid imgprincipal" id="img-header" alt="imagem com imagem do coronavírus escrito sintomas">

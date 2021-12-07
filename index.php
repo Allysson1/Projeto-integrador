@@ -19,7 +19,7 @@
     <?php include 'header.php'; ?>
 
     <main>
-      <img src="../Projeto-integrador/images/index.png" class="img-fluid" id="img-header" alt="imagem principal do topo do portal covid">
+      <img src="../Projeto-integrador/images/index.png" class="img-fluid imgprincipal" id="img-header" alt="imagem principal do topo do portal covid">
       <div class="row">
 
         <article class="col-12 col-sm-12 col-md-12 col-lg-8 col-xl-8">
