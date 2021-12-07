@@ -891,6 +891,19 @@ margin-left: 10%;
   color:#168aad;
 }
 
+.navas{
+  font-size: 1.3em;
+  padding: 15px;
+  display: block;
+  color:#168aad;
+}
+
+.navas li:hover{
+  color: #006fa5;
+}
+
+
+
 /* mobile sintomas */
 
 @media (max-width: 576px) {
@@ -903,6 +916,10 @@ margin-left: 10%;
 
   .hrsint{
     border: #000 1px dotted ;
+  }
+
+  .navas{
+    text-align: center;
   }
 
 }
@@ -969,15 +986,9 @@ margin-left: 10%;
 
 
 @media (min-width: 1200px){
-    .secmenos{
-      display: flex;
-    }
-    .sec2menos{
-      flex-direction: column;
-    }
-
     .imgsint{
       padding-bottom: 15px;
+      padding-left: 10px;
     }
 
     .sec01sint{
